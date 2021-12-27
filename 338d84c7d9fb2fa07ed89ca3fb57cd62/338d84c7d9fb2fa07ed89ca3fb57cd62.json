@@ -1,0 +1,123 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 3
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 2
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 53,
+        "TopLeftY": 19,
+        "BottomRightX": 108,
+        "BottomRightY": 41,
+        "Alignment": "TopLeft",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 4,
+        "ImagesCount": 10
+      }
+    },
+    "Calories": {
+      "ImageNumber": {
+        "TopLeftX": 208,
+        "TopLeftY": 19,
+        "BottomRightX": 252,
+        "BottomRightY": 41,
+        "Alignment": "TopRight",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 4,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "OneLineMonthAndDay": {
+        "Number": {
+          "TopLeftX": 106,
+          "TopLeftY": 281,
+          "BottomRightX": 150,
+          "BottomRightY": 303,
+          "Alignment": "TopRight",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 14
+      },
+      "PaddingZeroMonth": false,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 158,
+      "Y": 281,
+      "ImageIndex": 15,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 158,
+      "Y": 281,
+      "ImageIndex": 29,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 158,
+      "Y": 281,
+      "ImageIndex": 22,
+      "ImagesCount": 7
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 36,
+      "PointerCenterOfRotationY": 87
+    },
+    "Minutes": {
+      "ImageIndex": 38,
+      "PointerCenterOfRotationY": 124,
+      "CoverImage": {
+        "X": 142,
+        "Y": 151,
+        "ImageIndex": 40
+      }
+    },
+    "Seconds": {
+      "ImageIndex": 37,
+      "PointerCenterOfRotationY": 130,
+      "CoverImage": {
+        "X": 146,
+        "Y": 155,
+        "ImageIndex": 39
+      }
+    }
+  }
+}

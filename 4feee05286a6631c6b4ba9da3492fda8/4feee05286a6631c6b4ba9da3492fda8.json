@@ -1,0 +1,190 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 2
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 75,
+        "TopLeftY": 30,
+        "BottomRightX": 143,
+        "BottomRightY": 50,
+        "Alignment": "CenterRight",
+        "Spacing": 2,
+        "VerticalOffset": 0,
+        "ImageIndex": 7,
+        "ImagesCount": 10
+      }
+    },
+    "Calories": {
+      "ImageNumber": {
+        "TopLeftX": 89,
+        "TopLeftY": 64,
+        "BottomRightX": 143,
+        "BottomRightY": 84,
+        "Alignment": "CenterRight",
+        "Spacing": 2,
+        "VerticalOffset": 0,
+        "ImageIndex": 7,
+        "ImagesCount": 10
+      }
+    },
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 215,
+        "TopLeftY": 249,
+        "BottomRightX": 250,
+        "BottomRightY": 266,
+        "Alignment": "Center",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 7,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 17
+    },
+    "PAI": {
+      "ImageNumber": {
+        "TopLeftX": 215,
+        "TopLeftY": 43,
+        "BottomRightX": 250,
+        "BottomRightY": 60,
+        "Alignment": "Center",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 7,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0,
+    "StandUp": {
+      "ImageNumber": {
+        "TopLeftX": 117,
+        "TopLeftY": 236,
+        "BottomRightX": 143,
+        "BottomRightY": 256,
+        "Alignment": "CenterRight",
+        "Spacing": 2,
+        "VerticalOffset": 0,
+        "ImageIndex": 7,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 0,
+      "CommonY": 0,
+      "ImageIndexAMCN": 3,
+      "ImageIndexPMCN": 5,
+      "AmImageIndexEN": 4,
+      "PmImageIndexEN": 6,
+      "CoordinatesAM": {
+        "X": 2,
+        "Y": 180
+      },
+      "CoordinatesPM": {
+        "X": 2,
+        "Y": 180
+      }
+    }
+  },
+  "Battery": {
+    "BatteryText": {
+      "ImageNumber": {
+        "TopLeftX": 89,
+        "TopLeftY": 270,
+        "BottomRightX": 143,
+        "BottomRightY": 290,
+        "Alignment": "CenterRight",
+        "Spacing": 2,
+        "VerticalOffset": 0,
+        "ImageIndex": 7,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 30
+    }
+  },
+  "HearthProgress": {
+    "ImageProgress": {
+      "X": 198,
+      "Y": 229,
+      "ImageIndex": 18,
+      "ImagesCount": 12
+    }
+  },
+  "TimeDigital": {
+    "Hours": {
+      "TopLeftX": 38,
+      "TopLeftY": 116,
+      "BottomRightX": 144,
+      "BottomRightY": 204,
+      "Alignment": "Center",
+      "Spacing": 4,
+      "VerticalOffset": 0,
+      "ImageIndex": 31,
+      "ImagesCount": 10
+    },
+    "PaddingZeroHours": true,
+    "HoursFollowPosition": false,
+    "Time": {
+      "Unknown1": 1,
+      "Minutes": {
+        "TopLeftX": 164,
+        "TopLeftY": 116,
+        "BottomRightX": 270,
+        "BottomRightY": 204,
+        "Alignment": "Center",
+        "Spacing": 4,
+        "VerticalOffset": 0,
+        "ImageIndex": 41,
+        "ImagesCount": 10
+      },
+      "Seconds": {
+        "TopLeftX": 274,
+        "TopLeftY": 117,
+        "BottomRightX": 299,
+        "BottomRightY": 137,
+        "Alignment": "Center",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 51,
+        "ImagesCount": 10
+      },
+      "PaddingZeroMinutes": true,
+      "PaddingZeroSeconds": true,
+      "MinutesFollowHours": false,
+      "SecondsFollowMinutes": false
+    }
+  },
+  "PaiProgress": {
+    "ImageProgress": {
+      "X": 198,
+      "Y": 23,
+      "ImageIndex": 61,
+      "ImagesCount": 12
+    }
+  }
+}

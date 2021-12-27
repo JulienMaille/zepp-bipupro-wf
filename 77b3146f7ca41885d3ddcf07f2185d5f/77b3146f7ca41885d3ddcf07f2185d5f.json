@@ -1,0 +1,198 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 3
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 2
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 160,
+          "Y": 48,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 228,
+          "Y": 38,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 25,
+          "Y": 231,
+          "ImageIndex": 14,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 93,
+          "Y": 221,
+          "ImageIndex": 14,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 48,
+        "TopLeftY": 125,
+        "BottomRightX": 141,
+        "BottomRightY": 150,
+        "Alignment": "TopLeft",
+        "Spacing": 2,
+        "VerticalOffset": -3,
+        "ImageIndex": 79,
+        "ImagesCount": 10
+      }
+    },
+    "Calories": {
+      "ImageNumber": {
+        "TopLeftX": 165,
+        "TopLeftY": 252,
+        "BottomRightX": 262,
+        "BottomRightY": 285,
+        "Alignment": "TopRight",
+        "Spacing": 3,
+        "VerticalOffset": 4,
+        "ImageIndex": 89,
+        "ImagesCount": 10
+      }
+    },
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 190,
+        "TopLeftY": 205,
+        "BottomRightX": 262,
+        "BottomRightY": 238,
+        "Alignment": "TopRight",
+        "Spacing": 3,
+        "VerticalOffset": 4,
+        "ImageIndex": 89,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 99
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDayAlt": {
+        "MonthName": {
+          "X": 159,
+          "Y": 139,
+          "ImageIndex": 24,
+          "ImagesCount": 12
+        },
+        "MonthNameChinese": {
+          "X": 159,
+          "Y": 139,
+          "ImageIndex": 36,
+          "ImagesCount": 12
+        },
+        "Day": {
+          "TopLeftX": 188,
+          "TopLeftY": 7,
+          "BottomRightX": 224,
+          "BottomRightY": 32,
+          "Alignment": "TopLeft",
+          "Spacing": 2,
+          "VerticalOffset": -3,
+          "ImageIndex": 48,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 29,
+      "Y": 158,
+      "ImageIndex": 58,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 29,
+      "Y": 158,
+      "ImageIndex": 72,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 29,
+      "Y": 158,
+      "ImageIndex": 65,
+      "ImagesCount": 7
+    }
+  },
+  "Weather": {
+    "Icon": {
+      "Images": {
+        "X": 15,
+        "Y": 78,
+        "ImageIndex": 100,
+        "ImagesCount": 26
+      }
+    },
+    "Temperature": {
+      "Current": {
+        "ImageNumber": {
+          "TopLeftX": 50,
+          "TopLeftY": 76,
+          "BottomRightX": 117,
+          "BottomRightY": 101,
+          "Alignment": "TopLeft",
+          "Spacing": 2,
+          "VerticalOffset": -3,
+          "ImageIndex": 48,
+          "ImagesCount": 10
+        },
+        "MinusImageIndex": 126,
+        "SuffixImageIndexC": 127,
+        "NoDataImageIndex": 126
+      }
+    }
+  },
+  "Battery": {
+    "BatteryText": {
+      "ImageNumber": {
+        "TopLeftX": 50,
+        "TopLeftY": 28,
+        "BottomRightX": 129,
+        "BottomRightY": 53,
+        "Alignment": "TopLeft",
+        "Spacing": 2,
+        "VerticalOffset": -3,
+        "ImageIndex": 48,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 128
+    }
+  }
+}

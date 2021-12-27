@@ -1,0 +1,124 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 2
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 132,
+          "Y": 189,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 166,
+          "Y": 189,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 221,
+          "Y": 189,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 255,
+          "Y": 189,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 175,
+        "TopLeftY": 278,
+        "BottomRightX": 255,
+        "BottomRightY": 306,
+        "Alignment": "TopRight",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 13,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "OneLineMonthAndDay": {
+        "Number": {
+          "TopLeftX": 207,
+          "TopLeftY": 244,
+          "BottomRightX": 287,
+          "BottomRightY": 272,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 13,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 23
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 244,
+      "CommonY": 163,
+      "ImageIndexAMCN": 38,
+      "ImageIndexPMCN": 39,
+      "AmImageIndexEN": 40,
+      "PmImageIndexEN": 41
+    },
+    "Weekday": {
+      "X": 133,
+      "Y": 244,
+      "ImageIndex": 24,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 133,
+      "Y": 244,
+      "ImageIndex": 31,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 133,
+      "Y": 244,
+      "ImageIndex": 31,
+      "ImagesCount": 7
+    }
+  }
+}

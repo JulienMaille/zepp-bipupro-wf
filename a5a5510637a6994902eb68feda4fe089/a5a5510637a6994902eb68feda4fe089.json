@@ -1,0 +1,85 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "BackgroundColor": "0x00000000FF000000",
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 179,
+        "TopLeftY": 261,
+        "BottomRightX": 281,
+        "BottomRightY": 288,
+        "Alignment": "TopLeft",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 11,
+        "ImagesCount": 10
+      },
+      "PrefixImageIndex": 21
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDay": {
+        "Day": {
+          "TopLeftX": 13,
+          "TopLeftY": 31,
+          "BottomRightX": 165,
+          "BottomRightY": 127,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 1,
+          "ImagesCount": 10
+        },
+        "MonthFollowsYear": false,
+        "DayFollowsMonth": false
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 22,
+      "PointerCenterOfRotationY": 111
+    },
+    "Minutes": {
+      "ImageIndex": 23,
+      "PointerCenterOfRotationY": 150
+    },
+    "Seconds": {
+      "ImageIndex": 24,
+      "PointerCenterOfRotationY": 145,
+      "CoverImage": {
+        "X": 144,
+        "Y": 152,
+        "ImageIndex": 25
+      }
+    }
+  }
+}

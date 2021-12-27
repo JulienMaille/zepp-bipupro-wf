@@ -1,0 +1,120 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 83,
+      "Y": 7,
+      "ImageIndex": 2,
+      "ImagesCount": 7
+    }
+  },
+  "StepProgress": {
+    "ImageProgress": {
+      "X": 88,
+      "Y": 188,
+      "ImageIndex": 9,
+      "ImagesCount": 12
+    },
+    "UnknownImage": {
+      "X": 88,
+      "Y": 188,
+      "ImageIndex": 21
+    }
+  },
+  "Battery": {
+    "IconSetProgress": {
+      "ImageIndex": 28,
+      "Coordinates": [
+        {
+          "X": 250,
+          "Y": 154
+        },
+        {
+          "X": 237,
+          "Y": 154
+        },
+        {
+          "X": 224,
+          "Y": 154
+        },
+        {
+          "X": 211,
+          "Y": 154
+        },
+        {
+          "X": 198,
+          "Y": 154
+        }
+      ]
+    }
+  },
+  "HearthProgress": {
+    "IconSetProgress": {
+      "ImageIndex": 22,
+      "Coordinates": [
+        {
+          "X": 47,
+          "Y": 208
+        },
+        {
+          "X": 16,
+          "Y": 190
+        },
+        {
+          "X": 4,
+          "Y": 161
+        },
+        {
+          "X": 4,
+          "Y": 126
+        },
+        {
+          "X": 17,
+          "Y": 103
+        },
+        {
+          "X": 48,
+          "Y": 102
+        }
+      ]
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 33,
+      "PointerCenterOfRotationY": 91
+    },
+    "Minutes": {
+      "ImageIndex": 34,
+      "PointerCenterOfRotationY": 140,
+      "CoverImage": {
+        "X": 143,
+        "Y": 152,
+        "ImageIndex": 35
+      }
+    }
+  }
+}

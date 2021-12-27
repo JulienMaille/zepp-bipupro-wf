@@ -1,0 +1,92 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "BackgroundColor": "0x0000000000000000",
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 46,
+          "Y": 20,
+          "ImageIndex": 1,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 156,
+          "Y": 20,
+          "ImageIndex": 11,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 46,
+          "Y": 185,
+          "ImageIndex": 21,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 156,
+          "Y": 185,
+          "ImageIndex": 31,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "OneLineMonthAndDay": {
+        "Number": {
+          "TopLeftX": 183,
+          "TopLeftY": 148,
+          "BottomRightX": 258,
+          "BottomRightY": 172,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 41,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 51
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 121,
+      "CommonY": 148,
+      "ImageIndexAMCN": 59,
+      "ImageIndexPMCN": 60,
+      "AmImageIndexEN": 59,
+      "PmImageIndexEN": 60
+    },
+    "Weekday": {
+      "X": 42,
+      "Y": 148,
+      "ImageIndex": 52,
+      "ImagesCount": 7
+    }
+  }
+}

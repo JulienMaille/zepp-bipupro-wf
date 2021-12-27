@@ -1,0 +1,136 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Activity": {
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 17,
+        "TopLeftY": 145,
+        "BottomRightX": 95,
+        "BottomRightY": 162,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 12
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    }
+  },
+  "Weather": {
+    "UVindex": {
+      "UVindexNumber": {
+        "TopLeftX": 17,
+        "TopLeftY": 52,
+        "BottomRightX": 95,
+        "BottomRightY": 69,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "StepProgress": {
+    "ImageProgress": {
+      "X": 11,
+      "Y": 224,
+      "ImageIndex": 13,
+      "ImagesCount": 9
+    }
+  },
+  "HearthProgress": {
+    "ImageProgress": {
+      "X": 17,
+      "Y": 115,
+      "ImageIndex": 22,
+      "ImagesCount": 6
+    },
+    "NoDataImage": {
+      "X": 17,
+      "Y": 115,
+      "ImageIndex": 28
+    }
+  },
+  "CaloriesProgress": {
+    "ImageProgress": {
+      "X": 11,
+      "Y": 283,
+      "ImageIndex": 29,
+      "ImagesCount": 10
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 201,
+      "Y": 104
+    },
+    "Hours": {
+      "ImageIndex": 39,
+      "PointerCenterOfRotationY": 47
+    },
+    "Minutes": {
+      "ImageIndex": 41,
+      "PointerCenterOfRotationY": 75,
+      "CoverImage": {
+        "X": 191,
+        "Y": 94,
+        "ImageIndex": 43
+      }
+    },
+    "Seconds": {
+      "ImageIndex": 40,
+      "PointerCenterOfRotationY": 76,
+      "CoverImage": {
+        "X": 195,
+        "Y": 98,
+        "ImageIndex": 42
+      }
+    }
+  },
+  "UviProgress": {
+    "ImageProgress": {
+      "X": 17,
+      "Y": 24,
+      "ImageIndex": 44,
+      "ImagesCount": 6
+    },
+    "NoDataImage": {
+      "X": 17,
+      "Y": 24,
+      "ImageIndex": 50
+    }
+  }
+}

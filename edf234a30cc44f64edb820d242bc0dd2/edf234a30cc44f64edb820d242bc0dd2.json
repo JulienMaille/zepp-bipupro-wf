@@ -1,0 +1,57 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "BackgroundColor": "0x00000000FF000000",
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 25,
+          "Y": 20,
+          "ImageIndex": 1,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 156,
+          "Y": 20,
+          "ImageIndex": 11,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 25,
+          "Y": 170,
+          "ImageIndex": 21,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 156,
+          "Y": 170,
+          "ImageIndex": 31,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  }
+}

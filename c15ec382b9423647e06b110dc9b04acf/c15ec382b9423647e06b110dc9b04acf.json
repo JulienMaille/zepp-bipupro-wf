@@ -1,0 +1,129 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 30,
+          "Y": 132,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 82,
+          "Y": 132,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 174,
+          "Y": 132,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 226,
+          "Y": 132,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDayAlt": {
+        "Day": {
+          "TopLeftX": 168,
+          "TopLeftY": 15,
+          "BottomRightX": 202,
+          "BottomRightY": 39,
+          "Alignment": "TopLeft",
+          "Spacing": 2,
+          "VerticalOffset": 0,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 0,
+      "CommonY": 0,
+      "AmImageIndexEN": 29,
+      "PmImageIndexEN": 30,
+      "CoordinatesAM": {
+        "X": 27,
+        "Y": 89
+      },
+      "CoordinatesPM": {
+        "X": 237,
+        "Y": 89
+      }
+    },
+    "Weekday": {
+      "X": 102,
+      "Y": 15,
+      "ImageIndex": 22,
+      "ImagesCount": 7
+    }
+  },
+  "Weather": {
+    "Icon": {
+      "Images": {
+        "X": 102,
+        "Y": 280,
+        "ImageIndex": 31,
+        "ImagesCount": 26
+      }
+    },
+    "Temperature": {
+      "Current": {
+        "ImageNumber": {
+          "TopLeftX": 139,
+          "TopLeftY": 282,
+          "BottomRightX": 200,
+          "BottomRightY": 306,
+          "Alignment": "TopLeft",
+          "Spacing": 2,
+          "VerticalOffset": 0,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        },
+        "MinusImageIndex": 57,
+        "SuffixImageIndexC": 58,
+        "NoDataImageIndex": 59
+      }
+    }
+  }
+}

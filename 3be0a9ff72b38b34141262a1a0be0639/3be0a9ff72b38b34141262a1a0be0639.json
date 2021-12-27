@@ -1,0 +1,162 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 2
+    },
+    "PreviewKorean": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 3
+    },
+    "PreviewChinese": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 207,
+        "TopLeftY": 291,
+        "BottomRightX": 262,
+        "BottomRightY": 310,
+        "Alignment": "TopRight",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 35,
+        "ImagesCount": 10
+      }
+    },
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 41,
+        "TopLeftY": 10,
+        "BottomRightX": 67,
+        "BottomRightY": 29,
+        "Alignment": "TopLeft",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 35,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 45,
+      "Shortcut": {
+        "TopLeftX": 41,
+        "TopLeftY": 10,
+        "BottomRightX": 67,
+        "BottomRightY": 29,
+        "Unknown5": 1
+      }
+    },
+    "PAI": {
+      "ImageNumber": {
+        "TopLeftX": 41,
+        "TopLeftY": 291,
+        "BottomRightX": 67,
+        "BottomRightY": 310,
+        "Alignment": "TopLeft",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 35,
+        "ImagesCount": 10
+      },
+      "Shortcut": {
+        "TopLeftX": 41,
+        "TopLeftY": 291,
+        "BottomRightX": 67,
+        "BottomRightY": 310,
+        "Unknown5": 1
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDay": {
+        "Day": {
+          "TopLeftX": 175,
+          "TopLeftY": 226,
+          "BottomRightX": 202,
+          "BottomRightY": 245,
+          "Alignment": "HCenter",
+          "Spacing": 1,
+          "VerticalOffset": 0,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        },
+        "MonthFollowsYear": false,
+        "DayFollowsMonth": false
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 101,
+      "Y": 226,
+      "ImageIndex": 14,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 101,
+      "Y": 226,
+      "ImageIndex": 28,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 101,
+      "Y": 226,
+      "ImageIndex": 21,
+      "ImagesCount": 7
+    }
+  },
+  "Battery": {
+    "BatteryText": {
+      "ImageNumber": {
+        "TopLeftX": 210,
+        "TopLeftY": 10,
+        "BottomRightX": 249,
+        "BottomRightY": 29,
+        "Alignment": "TopRight",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 35,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 46,
+      "PointerCenterOfRotationY": 83
+    },
+    "Minutes": {
+      "ImageIndex": 47,
+      "PointerCenterOfRotationY": 125
+    },
+    "Seconds": {
+      "ImageIndex": 48,
+      "PointerCenterOfRotationY": 135,
+      "CoverImage": {
+        "X": 145,
+        "Y": 154,
+        "ImageIndex": 49
+      }
+    }
+  }
+}

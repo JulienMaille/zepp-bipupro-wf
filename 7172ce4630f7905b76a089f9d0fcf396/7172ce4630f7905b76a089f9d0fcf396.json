@@ -1,0 +1,140 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 2
+    },
+    "PreviewKorean": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 3
+    },
+    "PreviewChinese": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 38,
+          "Y": 44,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 86,
+          "Y": 44,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 169,
+          "Y": 44,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 217,
+          "Y": 44,
+          "ImageIndex": 4,
+          "ImagesCount": 10
+        }
+      },
+      "SeparatorHours": {
+        "X": 134,
+        "Y": 44,
+        "ImageIndex": 14
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "OneLineMonthAndDay": {
+        "Number": {
+          "TopLeftX": 112,
+          "TopLeftY": 109,
+          "BottomRightX": 194,
+          "BottomRightY": 132,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 15,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 25
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 210,
+      "CommonY": 108,
+      "ImageIndexAMCN": 49,
+      "ImageIndexPMCN": 50,
+      "AmImageIndexEN": 47,
+      "PmImageIndexEN": 48
+    },
+    "Weekday": {
+      "X": 35,
+      "Y": 109,
+      "ImageIndex": 26,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 35,
+      "Y": 109,
+      "ImageIndex": 40,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 35,
+      "Y": 109,
+      "ImageIndex": 33,
+      "ImagesCount": 7
+    }
+  },
+  "Weather": {
+    "Temperature": {
+      "Current": {
+        "ImageNumber": {
+          "TopLeftX": 17,
+          "TopLeftY": 10,
+          "BottomRightX": 75,
+          "BottomRightY": 33,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 15,
+          "ImagesCount": 10
+        },
+        "MinusImageIndex": 51,
+        "SuffixImageIndexC": 52
+      }
+    }
+  },
+  "Battery": {
+    "ImageProgress": {
+      "X": 256,
+      "Y": 16,
+      "ImageIndex": 53,
+      "ImagesCount": 12
+    }
+  }
+}

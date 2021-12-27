@@ -1,0 +1,153 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    },
+    "PreviewKorean": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    },
+    "PreviewChinese": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 30,
+          "Y": 261,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 54,
+          "Y": 261,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 80,
+          "Y": 261,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 104,
+          "Y": 261,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "Activity": {
+    "PAI": {
+      "ImageNumber": {
+        "TopLeftX": 76,
+        "TopLeftY": 87,
+        "BottomRightX": 174,
+        "BottomRightY": 138,
+        "Alignment": "TopCenter",
+        "Spacing": 4,
+        "VerticalOffset": 0,
+        "ImageIndex": 24,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 130,
+      "CommonY": 280,
+      "AmImageIndexEN": 22,
+      "PmImageIndexEN": 23
+    }
+  },
+  "StepProgress": {
+    "ImageProgress": {
+      "X": 218,
+      "Y": 232,
+      "ImageIndex": 34,
+      "ImagesCount": 10
+    }
+  },
+  "HearthProgress": {
+    "IconSetProgress": {
+      "ImageIndex": 44,
+      "Coordinates": [
+        {
+          "X": 254,
+          "Y": 67
+        },
+        {
+          "X": 254,
+          "Y": 82
+        },
+        {
+          "X": 254,
+          "Y": 96
+        },
+        {
+          "X": 254,
+          "Y": 110
+        },
+        {
+          "X": 254,
+          "Y": 124
+        },
+        {
+          "X": 254,
+          "Y": 138
+        }
+      ]
+    }
+  },
+  "CaloriesProgress": {
+    "ImageProgress": {
+      "X": 207,
+      "Y": 221,
+      "ImageIndex": 50,
+      "ImagesCount": 20
+    }
+  },
+  "PaiProgress": {
+    "ImageProgress": {
+      "X": 16,
+      "Y": 18,
+      "ImageIndex": 70,
+      "ImagesCount": 10
+    }
+  },
+  "StandUpProgress": {
+    "ImageProgress": {
+      "X": 228,
+      "Y": 242,
+      "ImageIndex": 80,
+      "ImagesCount": 12
+    }
+  }
+}

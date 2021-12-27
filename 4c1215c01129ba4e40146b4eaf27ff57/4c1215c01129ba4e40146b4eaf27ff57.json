@@ -1,0 +1,179 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    },
+    "PreviewKorean": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    },
+    "PreviewChinese": {
+      "X": 18,
+      "Y": 17,
+      "ImageIndex": 1
+    }
+  },
+  "Activity": {
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 26,
+        "TopLeftY": 31,
+        "BottomRightX": 53,
+        "BottomRightY": 44,
+        "Alignment": "HCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 9,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 19
+    },
+    "PAI": {
+      "ImageNumber": {
+        "TopLeftX": 248,
+        "TopLeftY": 31,
+        "BottomRightX": 275,
+        "BottomRightY": 44,
+        "Alignment": "HCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 9,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 119,
+      "Y": 228,
+      "ImageIndex": 2,
+      "ImagesCount": 7
+    }
+  },
+  "Weather": {
+    "Humidity": {
+      "HumidityNumber": {
+        "TopLeftX": 27,
+        "TopLeftY": 271,
+        "BottomRightX": 53,
+        "BottomRightY": 284,
+        "Alignment": "HCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 9,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 20
+    },
+    "UVindex": {
+      "UVindexNumber": {
+        "TopLeftX": 253,
+        "TopLeftY": 271,
+        "BottomRightX": 271,
+        "BottomRightY": 284,
+        "Alignment": "HCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 9,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "HearthProgress": {
+    "ImageProgress": {
+      "X": 15,
+      "Y": 15,
+      "ImageIndex": 21,
+      "ImagesCount": 6
+    },
+    "NoDataImage": {
+      "X": 15,
+      "Y": 15,
+      "ImageIndex": 27
+    }
+  },
+  "HumidityProgress": {
+    "ImageProgress": {
+      "X": 15,
+      "Y": 255,
+      "ImageIndex": 21,
+      "ImagesCount": 6
+    },
+    "NoDataImage": {
+      "X": 15,
+      "Y": 255,
+      "ImageIndex": 27
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 28,
+      "PointerCenterOfRotationY": 64
+    },
+    "Minutes": {
+      "ImageIndex": 29,
+      "PointerCenterOfRotationY": 109,
+      "CoverImage": {
+        "X": 138,
+        "Y": 147,
+        "ImageIndex": 32
+      }
+    },
+    "Seconds": {
+      "ImageIndex": 30,
+      "PointerCenterOfRotationY": 113,
+      "CoverImage": {
+        "X": 144,
+        "Y": 153,
+        "ImageIndex": 31
+      }
+    }
+  },
+  "PaiProgress": {
+    "ImageProgress": {
+      "X": 237,
+      "Y": 15,
+      "ImageIndex": 21,
+      "ImagesCount": 6
+    },
+    "NoDataImage": {
+      "X": 237,
+      "Y": 15,
+      "ImageIndex": 27
+    }
+  },
+  "UviProgress": {
+    "ImageProgress": {
+      "X": 237,
+      "Y": 255,
+      "ImageIndex": 21,
+      "ImagesCount": 6
+    },
+    "NoDataImage": {
+      "X": 237,
+      "Y": 255,
+      "ImageIndex": 27
+    }
+  }
+}

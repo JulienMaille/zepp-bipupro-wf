@@ -1,0 +1,113 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 2
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 61,
+          "Y": 228,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 101,
+          "Y": 228,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 159,
+          "Y": 228,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 199,
+          "Y": 228,
+          "ImageIndex": 3,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 211,
+      "CommonY": 213,
+      "ImageIndexAMCN": 13,
+      "ImageIndexPMCN": 14,
+      "AmImageIndexEN": 15,
+      "PmImageIndexEN": 16
+    }
+  },
+  "StepProgress": {
+    "IconSetProgress": {
+      "ImageIndex": 17,
+      "Coordinates": [
+        {
+          "X": 87,
+          "Y": 34
+        },
+        {
+          "X": 112,
+          "Y": 26
+        },
+        {
+          "X": 143,
+          "Y": 26
+        },
+        {
+          "X": 172,
+          "Y": 28
+        },
+        {
+          "X": 200,
+          "Y": 38
+        }
+      ]
+    }
+  },
+  "Animation": {
+    "ImageSetAnimation": [
+      {
+        "ImageProgress": {
+          "X": 30,
+          "Y": 118,
+          "ImageIndex": 22,
+          "ImagesCount": 16
+        },
+        "FrameInterval": 50,
+        "PlayTimes": 255,
+        "Repeat": false
+      }
+    ]
+  }
+}

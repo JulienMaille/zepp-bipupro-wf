@@ -1,0 +1,232 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 16,
+          "Y": 123,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 69,
+          "Y": 123,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 148,
+          "Y": 123,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 201,
+          "Y": 123,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "Seconds": {
+        "Tens": {
+          "X": 256,
+          "Y": 175,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 271,
+          "Y": 175,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 45,
+        "TopLeftY": 286,
+        "BottomRightX": 105,
+        "BottomRightY": 308,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 42,
+        "ImagesCount": 10
+      }
+    },
+    "Calories": {
+      "ImageNumber": {
+        "TopLeftX": 202,
+        "TopLeftY": 35,
+        "BottomRightX": 250,
+        "BottomRightY": 57,
+        "Alignment": "TopRight",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 42,
+        "ImagesCount": 10
+      }
+    },
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 64,
+        "TopLeftY": 35,
+        "BottomRightX": 100,
+        "BottomRightY": 57,
+        "Alignment": "TopRight",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 42,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 52
+    },
+    "Distance": {
+      "ImageNumber": {
+        "TopLeftX": 209,
+        "TopLeftY": 286,
+        "BottomRightX": 249,
+        "BottomRightY": 308,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 42,
+        "ImagesCount": 10
+      },
+      "SuffixKMImageIndex": 53,
+      "DecimalPointImageIndex": 54,
+      "SuffixMIImageIndex": 55,
+      "SuffixImageCoordinates": {
+        "X": 175,
+        "Y": 263
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "OneLineYearMonthAndDay": {
+        "Number": {
+          "TopLeftX": 19,
+          "TopLeftY": 76,
+          "BottomRightX": 142,
+          "BottomRightY": 96,
+          "Alignment": "TopLeft",
+          "Spacing": 1,
+          "VerticalOffset": 0,
+          "ImageIndex": 22,
+          "ImagesCount": 10
+        },
+        "DelimiterImageIndex": 32
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 256,
+      "CommonY": 126,
+      "AmImageIndexEN": 40,
+      "PmImageIndexEN": 41
+    },
+    "Weekday": {
+      "X": 157,
+      "Y": 76,
+      "ImageIndex": 33,
+      "ImagesCount": 7
+    }
+  },
+  "Battery": {
+    "BatteryText": {
+      "ImageNumber": {
+        "TopLeftX": 229,
+        "TopLeftY": 223,
+        "BottomRightX": 284,
+        "BottomRightY": 243,
+        "Alignment": "TopRight",
+        "Spacing": 1,
+        "VerticalOffset": 0,
+        "ImageIndex": 56,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 66
+    },
+    "IconSetProgress": {
+      "ImageIndex": 67,
+      "Coordinates": [
+        {
+          "X": 212,
+          "Y": 231
+        },
+        {
+          "X": 199,
+          "Y": 231
+        },
+        {
+          "X": 186,
+          "Y": 231
+        },
+        {
+          "X": 173,
+          "Y": 231
+        },
+        {
+          "X": 160,
+          "Y": 231
+        },
+        {
+          "X": 147,
+          "Y": 231
+        },
+        {
+          "X": 134,
+          "Y": 231
+        },
+        {
+          "X": 121,
+          "Y": 231
+        },
+        {
+          "X": 108,
+          "Y": 231
+        },
+        {
+          "X": 95,
+          "Y": 231
+        }
+      ]
+    }
+  }
+}

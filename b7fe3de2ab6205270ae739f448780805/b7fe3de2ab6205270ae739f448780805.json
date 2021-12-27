@@ -1,0 +1,134 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 2
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 10,
+        "TopLeftY": 37,
+        "BottomRightX": 70,
+        "BottomRightY": 57,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 51,
+        "ImagesCount": 10
+      }
+    },
+    "Calories": {
+      "ImageNumber": {
+        "TopLeftX": 232,
+        "TopLeftY": 37,
+        "BottomRightX": 292,
+        "BottomRightY": 57,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 51,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDayAlt": {
+        "MonthName": {
+          "X": 80,
+          "Y": 285,
+          "ImageIndex": 3,
+          "ImagesCount": 12
+        },
+        "MonthNameChinese": {
+          "X": 80,
+          "Y": 285,
+          "ImageIndex": 15,
+          "ImagesCount": 12
+        },
+        "Day": {
+          "TopLeftX": 118,
+          "TopLeftY": 285,
+          "BottomRightX": 136,
+          "BottomRightY": 309,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 27,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 168,
+      "Y": 285,
+      "ImageIndex": 37,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 168,
+      "Y": 285,
+      "ImageIndex": 44,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 168,
+      "Y": 285,
+      "ImageIndex": 44,
+      "ImagesCount": 7
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 61,
+      "PointerCenterOfRotationY": 93
+    },
+    "Minutes": {
+      "ImageIndex": 62,
+      "PointerCenterOfRotationY": 134,
+      "CoverImage": {
+        "X": 142,
+        "Y": 151,
+        "ImageIndex": 65
+      }
+    },
+    "Seconds": {
+      "ImageIndex": 63,
+      "PointerCenterOfRotationY": 135,
+      "CoverImage": {
+        "X": 146,
+        "Y": 155,
+        "ImageIndex": 64
+      }
+    }
+  }
+}

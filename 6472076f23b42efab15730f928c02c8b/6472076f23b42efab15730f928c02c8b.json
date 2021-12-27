@@ -1,0 +1,140 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDay": {
+        "Year": {
+          "TopLeftX": 32,
+          "TopLeftY": 130,
+          "BottomRightX": 106,
+          "BottomRightY": 150,
+          "Alignment": "CenterLeft",
+          "Spacing": 1,
+          "VerticalOffset": 0,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Month": {
+          "TopLeftX": 112,
+          "TopLeftY": 130,
+          "BottomRightX": 152,
+          "BottomRightY": 150,
+          "Alignment": "CenterLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Day": {
+          "TopLeftX": 153,
+          "TopLeftY": 130,
+          "BottomRightX": 186,
+          "BottomRightY": 150,
+          "Alignment": "CenterLeft",
+          "Spacing": 1,
+          "VerticalOffset": 0,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "MonthFollowsYear": false,
+        "DayFollowsMonth": false,
+        "DelimiterYearImageIndex": 12,
+        "DelimiterMonthImageIndex": 13
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "AmPm": {
+      "CommonX": 0,
+      "CommonY": 0,
+      "ImageIndexAMCN": 21,
+      "ImageIndexPMCN": 23,
+      "AmImageIndexEN": 22,
+      "PmImageIndexEN": 24,
+      "CoordinatesAM": {
+        "X": 5,
+        "Y": 102
+      },
+      "CoordinatesPM": {
+        "X": 5,
+        "Y": 102
+      }
+    },
+    "Weekday": {
+      "X": 206,
+      "Y": 130,
+      "ImageIndex": 14,
+      "ImagesCount": 7
+    },
+    "WeekdayChinese": {
+      "X": 206,
+      "Y": 130,
+      "ImageIndex": 14,
+      "ImagesCount": 7
+    },
+    "WeekdayKorean": {
+      "X": 206,
+      "Y": 130,
+      "ImageIndex": 14,
+      "ImagesCount": 7
+    }
+  },
+  "TimeDigital": {
+    "Hours": {
+      "TopLeftX": 10,
+      "TopLeftY": 0,
+      "BottomRightX": 298,
+      "BottomRightY": 124,
+      "Alignment": "TopLeft",
+      "Spacing": 6,
+      "VerticalOffset": 0,
+      "ImageIndex": 25,
+      "ImagesCount": 10
+    },
+    "PaddingZeroHours": true,
+    "HoursFollowPosition": false,
+    "Time": {
+      "Unknown1": 1,
+      "Minutes": {
+        "TopLeftX": 7,
+        "TopLeftY": 156,
+        "BottomRightX": 288,
+        "BottomRightY": 316,
+        "Alignment": "TopLeft",
+        "Spacing": 13,
+        "VerticalOffset": 0,
+        "ImageIndex": 35,
+        "ImagesCount": 10
+      },
+      "PaddingZeroMinutes": true,
+      "PaddingZeroSeconds": true,
+      "MinutesFollowHours": false,
+      "SecondsFollowMinutes": false
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "ImageNumber": {
+        "TopLeftX": 121,
+        "TopLeftY": 280,
+        "BottomRightX": 181,
+        "BottomRightY": 296,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 29,
+        "ImagesCount": 10
+      }
+    },
+    "HeartRate": {
+      "ImageNumber": {
+        "TopLeftX": 44,
+        "TopLeftY": 280,
+        "BottomRightX": 80,
+        "BottomRightY": 296,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 29,
+        "ImagesCount": 10
+      },
+      "NoDataImageIndex": 39
+    },
+    "PAI": {
+      "ImageNumber": {
+        "TopLeftX": 222,
+        "TopLeftY": 280,
+        "BottomRightX": 258,
+        "BottomRightY": 296,
+        "Alignment": "TopCenter",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 29,
+        "ImagesCount": 10
+      }
+    },
+    "UnknownLongValue7": 0
+  },
+  "DateBlock": {
+    "Date": {
+      "MonthAndDay": {
+        "Month": {
+          "TopLeftX": 58,
+          "TopLeftY": 87,
+          "BottomRightX": 244,
+          "BottomRightY": 232,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Day": {
+          "TopLeftX": 106,
+          "TopLeftY": 23,
+          "BottomRightX": 142,
+          "BottomRightY": 47,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "VerticalOffset": 0,
+          "ImageIndex": 12,
+          "ImagesCount": 10
+        },
+        "MonthFollowsYear": false,
+        "DayFollowsMonth": false
+      },
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    },
+    "Weekday": {
+      "X": 144,
+      "Y": 20,
+      "ImageIndex": 22,
+      "ImagesCount": 7
+    }
+  },
+  "TimeAnalog": {
+    "CommonCenterCoordinates": {
+      "X": 151,
+      "Y": 160
+    },
+    "Hours": {
+      "ImageIndex": 40,
+      "PointerCenterOfRotationY": 98
+    },
+    "Minutes": {
+      "ImageIndex": 41,
+      "PointerCenterOfRotationY": 131,
+      "CoverImage": {
+        "X": 144,
+        "Y": 153,
+        "ImageIndex": 42
+      }
+    }
+  }
+}

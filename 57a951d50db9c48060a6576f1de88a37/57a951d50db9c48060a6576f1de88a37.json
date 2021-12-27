@@ -1,0 +1,105 @@
+{
+  "Info": {
+    "DeviceId": 71
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewKorean": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "PreviewChinese": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "TimeExtended": {
+    "TimeSeparateDigits": {
+      "Hours": {
+        "Tens": {
+          "X": 73,
+          "Y": 40,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 106,
+          "Y": 40,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "Minutes": {
+        "Tens": {
+          "X": 162,
+          "Y": 40,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        },
+        "Ones": {
+          "X": 195,
+          "Y": 40,
+          "ImageIndex": 2,
+          "ImagesCount": 10
+        }
+      },
+      "PaddingZeroHours": false,
+      "PaddingZeroMinutes": true
+    }
+  },
+  "DateBlock": {
+    "Date": {
+      "PaddingZeroMonth": true,
+      "PaddingZeroDay": true,
+      "Unknown6": 0
+    }
+  },
+  "Battery": {
+    "BatteryText": {
+      "ImageNumber": {
+        "TopLeftX": 168,
+        "TopLeftY": 86,
+        "BottomRightX": 202,
+        "BottomRightY": 98,
+        "Alignment": "TopLeft",
+        "Spacing": 0,
+        "VerticalOffset": 0,
+        "ImageIndex": 24,
+        "ImagesCount": 10
+      },
+      "SuffixImageIndex": 34
+    },
+    "ImageProgress": {
+      "X": 111,
+      "Y": 88,
+      "ImageIndex": 35,
+      "ImagesCount": 10
+    }
+  },
+  "Animation": {
+    "ImageSetAnimation": [
+      {
+        "ImageProgress": {
+          "X": 47,
+          "Y": 102,
+          "ImageIndex": 12,
+          "ImagesCount": 12
+        },
+        "FrameInterval": 250,
+        "PlayTimes": 255,
+        "Repeat": true
+      }
+    ]
+  }
+}
