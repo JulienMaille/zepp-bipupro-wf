@@ -175,6 +175,30 @@
       "ImageIndex": 70
     }
   },
-  "Unknown27": null,
-  "Unknown28": null
+  "StressProgress": {
+    "ImageProgress": {
+      "X": 37,
+      "Y": 230,
+      "ImageIndex": 81,
+      "ImagesCount": 8
+    },
+    "NoDataImage": {
+      "X": 37,
+      "Y": 230,
+      "ImageIndex": 89
+    }
+  },
+  "SPO2Progress": {
+    "ImageProgress": {
+      "X": 205,
+      "Y": 230,
+      "ImageIndex": 90,
+      "ImagesCount": 8
+    },
+    "NoDataImage": {
+      "X": 205,
+      "Y": 230,
+      "ImageIndex": 98
+    }
+  }
 }
