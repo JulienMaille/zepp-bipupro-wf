@@ -1,1275 +1,1275 @@
-2021-12-27 14:54:02,554 - root - DEBUG - Opening watch face 'e7fb2653e13c8747e82ce500ec321d65.bin'
-2021-12-27 14:54:02,554 - root - DEBUG - Reading parameters...
-2021-12-27 14:54:02,554 - root - INFO - Reading header...
-2021-12-27 14:54:02,570 - root - INFO - Header was read:
-2021-12-27 14:54:02,570 - root - INFO - Signature: b'UIHH\x01\x00\xff', Unknown: 109, ParametersSize: 32, isValid: True, deviceId: 71
-2021-12-27 14:54:02,570 - root - INFO - Reading parameter offsets...
-2021-12-27 14:54:02,570 - root - INFO - Parameter offsets were read from file
-2021-12-27 14:54:02,570 - root - INFO - Reading parameters descriptor...
-2021-12-27 14:54:02,570 - root - INFO - 1 ( A): 5 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 301 12D
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 87 57
-2021-12-27 14:54:02,570 - root - INFO - getParameters descriptor was read:
-2021-12-27 14:54:02,570 - root - INFO - ParametersTableLength: 301, ImagesCount: 87
-2021-12-27 14:54:02,570 - root - INFO - Reading parameters locations...
-2021-12-27 14:54:02,570 - root - INFO - 2 (12): 4 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 32 20
-2021-12-27 14:54:02,570 - root - INFO - 3 (1A): 4 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 32 20
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 84 54
-2021-12-27 14:54:02,570 - root - INFO - 4 (22): 5 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 225 E1
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 76 4C
-2021-12-27 14:54:02,570 - root - INFO - 5 (2A): 4 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 116 74
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 109 6D
-2021-12-27 14:54:02,570 - root - INFO - Watch face parameters locations were read:
-2021-12-27 14:54:02,570 - root - INFO - Reading descriptor for parameter 2
-2021-12-27 14:54:02,570 - root - INFO - Descriptor offset: 0, Descriptor length: 32
-2021-12-27 14:54:02,570 - root - INFO - Parsing descriptor for parameter 2...
-2021-12-27 14:54:02,570 - root - INFO - 1 ( A): 6 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 2  2
-2021-12-27 14:54:02,570 - root - INFO - 3 (1A): 6 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 1  1
-2021-12-27 14:54:02,570 - root - INFO - 4 (22): 6 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 0  0
-2021-12-27 14:54:02,570 - root - INFO - 5 (2A): 6 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 0  0
-2021-12-27 14:54:02,570 - root - INFO - Reading descriptor for parameter 3
-2021-12-27 14:54:02,570 - root - INFO - Descriptor offset: 32, Descriptor length: 84
-2021-12-27 14:54:02,570 - root - INFO - Parsing descriptor for parameter 3...
-2021-12-27 14:54:02,570 - root - INFO - 1 ( A): 82 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( A): 21 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( A): 8 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 87 57
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 39 27
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 3  3
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 10  A
-2021-12-27 14:54:02,570 - root - INFO -         2 (12): 9 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 133 85
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 39 27
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 3  3
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 10  A
-2021-12-27 14:54:02,570 - root - INFO -     2 (12): 22 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( A): 9 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 205 CD
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 39 27
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 3  3
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 10  A
-2021-12-27 14:54:02,570 - root - INFO -         2 (12): 9 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 251 FB
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 39 27
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 3  3
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 10  A
-2021-12-27 14:54:02,570 - root - INFO -     3 (1A): 20 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( A): 8 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 91 5B
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 7  7
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 13  D
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 10  A
-2021-12-27 14:54:02,570 - root - INFO -         2 (12): 8 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 110 6E
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 7  7
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 13  D
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 10  A
-2021-12-27 14:54:02,570 - root - INFO -     5 (2A): 7 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( 8): 179 B3
-2021-12-27 14:54:02,570 - root - INFO -         2 (10): 39 27
-2021-12-27 14:54:02,570 - root - INFO -         3 (18): 23 17
-2021-12-27 14:54:02,570 - root - INFO -     7 (38): 0  0
-2021-12-27 14:54:02,570 - root - INFO -     8 (40): 1  1
-2021-12-27 14:54:02,570 - root - INFO - Reading descriptor for parameter 4
-2021-12-27 14:54:02,570 - root - INFO - Descriptor offset: 225, Descriptor length: 76
-2021-12-27 14:54:02,570 - root - INFO - Parsing descriptor for parameter 4...
-2021-12-27 14:54:02,570 - root - INFO - 1 ( A): 24 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( A): 22 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( 8): 128 80
-2021-12-27 14:54:02,570 - root - INFO -         2 (10): 251 FB
-2021-12-27 14:54:02,570 - root - INFO -         3 (18): 222 DE
-2021-12-27 14:54:02,570 - root - INFO -         4 (20): 279 117
-2021-12-27 14:54:02,570 - root - INFO -         5 (28): 20 14
-2021-12-27 14:54:02,570 - root - INFO -         6 (30): 1  1
-2021-12-27 14:54:02,570 - root - INFO -         7 (38): 0  0
-2021-12-27 14:54:02,570 - root - INFO -         8 (40): 13  D
-2021-12-27 14:54:02,570 - root - INFO -         9 (48): 10  A
-2021-12-27 14:54:02,570 - root - INFO - 4 (22): 24 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( A): 20 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( 8): 16 10
-2021-12-27 14:54:02,570 - root - INFO -         2 (10): 128 80
-2021-12-27 14:54:02,570 - root - INFO -         3 (18): 72 48
-2021-12-27 14:54:02,570 - root - INFO -         4 (20): 156 9C
-2021-12-27 14:54:02,570 - root - INFO -         5 (28): 20 14
-2021-12-27 14:54:02,570 - root - INFO -         6 (30): 1  1
-2021-12-27 14:54:02,570 - root - INFO -         7 (38): 0  0
-2021-12-27 14:54:02,570 - root - INFO -         8 (40): 13  D
-2021-12-27 14:54:02,570 - root - INFO -         9 (48): 10  A
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 76 4C
-2021-12-27 14:54:02,570 - root - INFO - 6 (32): 20 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( A): 18 bytes
-2021-12-27 14:54:02,570 - root - INFO -         1 ( 8): 16 10
-2021-12-27 14:54:02,570 - root - INFO -         2 (10): 39 27
-2021-12-27 14:54:02,570 - root - INFO -         3 (18): 72 48
-2021-12-27 14:54:02,570 - root - INFO -         4 (20): 67 43
-2021-12-27 14:54:02,570 - root - INFO -         5 (28): 20 14
-2021-12-27 14:54:02,570 - root - INFO -         6 (30): 1  1
-2021-12-27 14:54:02,570 - root - INFO -         7 (38): 0  0
-2021-12-27 14:54:02,570 - root - INFO -         8 (40): 77 4D
-2021-12-27 14:54:02,570 - root - INFO -         9 (48): 10  A
-2021-12-27 14:54:02,570 - root - INFO - 7 (38): 0  0
-2021-12-27 14:54:02,570 - root - INFO - Reading descriptor for parameter 5
-2021-12-27 14:54:02,570 - root - INFO - Descriptor offset: 116, Descriptor length: 109
-2021-12-27 14:54:02,570 - root - INFO - Parsing descriptor for parameter 5...
-2021-12-27 14:54:02,570 - root - INFO - 1 ( A): 56 bytes
-2021-12-27 14:54:02,570 - root - INFO -     9 (4A): 48 bytes
-2021-12-27 14:54:02,570 - root - INFO -         3 (1A): 20 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 34 22
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 195 C3
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 71 47
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 223 DF
-2021-12-27 14:54:02,570 - root - INFO -             5 (28): 18 12
-2021-12-27 14:54:02,570 - root - INFO -             6 (30): 1  1
-2021-12-27 14:54:02,570 - root - INFO -             7 (38): 0  0
-2021-12-27 14:54:02,570 - root - INFO -             8 (40): 24 18
-2021-12-27 14:54:02,570 - root - INFO -             9 (48): 10  A
-2021-12-27 14:54:02,570 - root - INFO -         4 (20): 0  0
-2021-12-27 14:54:02,570 - root - INFO -         5 (28): 0  0
-2021-12-27 14:54:02,570 - root - INFO -         6 (32): 9 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 7  7
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 165 A5
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 34 22
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 12  C
-2021-12-27 14:54:02,570 - root - INFO -         7 (3A): 9 bytes
-2021-12-27 14:54:02,570 - root - INFO -             1 ( 8): 7  7
-2021-12-27 14:54:02,570 - root - INFO -             2 (10): 165 A5
-2021-12-27 14:54:02,570 - root - INFO -             3 (18): 46 2E
-2021-12-27 14:54:02,570 - root - INFO -             4 (20): 12  C
-2021-12-27 14:54:02,570 - root - INFO -     4 (20): 1  1
-2021-12-27 14:54:02,570 - root - INFO -     5 (28): 1  1
-2021-12-27 14:54:02,570 - root - INFO -     6 (30): 0  0
-2021-12-27 14:54:02,570 - root - INFO - 2 (12): 13 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 159 9F
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 5  5
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 72 48
-2021-12-27 14:54:02,570 - root - INFO -     4 (20): 73 49
-2021-12-27 14:54:02,570 - root - INFO -     5 (28): 74 4A
-2021-12-27 14:54:02,570 - root - INFO -     6 (30): 75 4B
-2021-12-27 14:54:02,570 - root - INFO - 4 (22): 10 bytes
-2021-12-27 14:54:02,570 - root - INFO -     1 ( 8): 207 CF
-2021-12-27 14:54:02,570 - root - INFO -     2 (10): 190 BE
-2021-12-27 14:54:02,570 - root - INFO -     3 (18): 58 3A
-2021-12-27 14:54:02,585 - root - INFO -     4 (20): 7  7
-2021-12-27 14:54:02,585 - root - INFO - 5 (2A): 10 bytes
-2021-12-27 14:54:02,585 - root - INFO -     1 ( 8): 207 CF
-2021-12-27 14:54:02,585 - root - INFO -     2 (10): 190 BE
-2021-12-27 14:54:02,585 - root - INFO -     3 (18): 65 41
-2021-12-27 14:54:02,585 - root - INFO -     4 (20): 7  7
-2021-12-27 14:54:02,585 - root - INFO - 6 (32): 10 bytes
-2021-12-27 14:54:02,585 - root - INFO -     1 ( 8): 207 CF
-2021-12-27 14:54:02,585 - root - INFO -     2 (10): 190 BE
-2021-12-27 14:54:02,585 - root - INFO -     3 (18): 65 41
-2021-12-27 14:54:02,585 - root - INFO -     4 (20): 7  7
-2021-12-27 14:54:02,585 - root - INFO - Reading resources offsets table with 87 elements (348 bytes)
-2021-12-27 14:54:02,585 - root - INFO - Resource 0 offset: 768, length: 86556...
-2021-12-27 14:54:02,585 - root - DEBUG - Reading resource 0...
-2021-12-27 14:54:02,617 - root - INFO - The image is bme.
-2021-12-27 14:54:02,617 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:02,617 - root - INFO - Image header was read:
-2021-12-27 14:54:02,617 - root - INFO - Width: 202, Height: 214, RowLength: 404
-2021-12-27 14:54:02,617 - root - INFO - datalength: 86540, _step: 2
-2021-12-27 14:54:02,617 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:02,790 - root - INFO - Resource 1 offset: 87324, length: 86556...
-2021-12-27 14:54:02,790 - root - DEBUG - Reading resource 1...
-2021-12-27 14:54:02,790 - root - INFO - The image is bme.
-2021-12-27 14:54:02,790 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:02,790 - root - INFO - Image header was read:
-2021-12-27 14:54:02,790 - root - INFO - Width: 202, Height: 214, RowLength: 404
-2021-12-27 14:54:02,790 - root - INFO - datalength: 86540, _step: 2
-2021-12-27 14:54:02,790 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:02,977 - root - INFO - Resource 2 offset: 173880, length: 192288...
-2021-12-27 14:54:02,977 - root - DEBUG - Reading resource 2...
-2021-12-27 14:54:02,977 - root - INFO - The image is bme.
-2021-12-27 14:54:02,977 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:02,977 - root - INFO - Image header was read:
-2021-12-27 14:54:02,977 - root - INFO - Width: 302, Height: 320, RowLength: 604
-2021-12-27 14:54:02,977 - root - INFO - datalength: 192272, _step: 2
-2021-12-27 14:54:02,977 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,399 - root - INFO - Resource 3 offset: 366168, length: 3306...
-2021-12-27 14:54:03,399 - root - DEBUG - Reading resource 3...
-2021-12-27 14:54:03,399 - root - INFO - The image is bme.
-2021-12-27 14:54:03,399 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,399 - root - INFO - Image header was read:
-2021-12-27 14:54:03,399 - root - INFO - Width: 46, Height: 59, RowLength: 92
-2021-12-27 14:54:03,399 - root - INFO - datalength: 3290, _step: 2
-2021-12-27 14:54:03,399 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,399 - root - INFO - Resource 4 offset: 369474, length: 1980...
-2021-12-27 14:54:03,399 - root - DEBUG - Reading resource 4...
-2021-12-27 14:54:03,399 - root - INFO - The image is bme.
-2021-12-27 14:54:03,399 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,399 - root - INFO - Image header was read:
-2021-12-27 14:54:03,399 - root - INFO - Width: 46, Height: 59, RowLength: 92
-2021-12-27 14:54:03,399 - root - INFO - datalength: 1964, _step: 2
-2021-12-27 14:54:03,399 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,399 - root - INFO - Resource 5 offset: 371454, length: 3442...
-2021-12-27 14:54:03,399 - root - DEBUG - Reading resource 5...
-2021-12-27 14:54:03,415 - root - INFO - The image is bme.
-2021-12-27 14:54:03,415 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,415 - root - INFO - Image header was read:
-2021-12-27 14:54:03,415 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,415 - root - INFO - datalength: 3426, _step: 2
-2021-12-27 14:54:03,415 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,415 - root - INFO - Resource 6 offset: 374896, length: 3424...
-2021-12-27 14:54:03,415 - root - DEBUG - Reading resource 6...
-2021-12-27 14:54:03,415 - root - INFO - The image is bme.
-2021-12-27 14:54:03,415 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,415 - root - INFO - Image header was read:
-2021-12-27 14:54:03,415 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,415 - root - INFO - datalength: 3408, _step: 2
-2021-12-27 14:54:03,415 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,415 - root - INFO - Resource 7 offset: 378320, length: 3128...
-2021-12-27 14:54:03,415 - root - DEBUG - Reading resource 7...
-2021-12-27 14:54:03,415 - root - INFO - The image is bme.
-2021-12-27 14:54:03,415 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,415 - root - INFO - Image header was read:
-2021-12-27 14:54:03,415 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,415 - root - INFO - datalength: 3112, _step: 2
-2021-12-27 14:54:03,415 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,430 - root - INFO - Resource 8 offset: 381448, length: 3540...
-2021-12-27 14:54:03,430 - root - DEBUG - Reading resource 8...
-2021-12-27 14:54:03,430 - root - INFO - The image is bme.
-2021-12-27 14:54:03,430 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,430 - root - INFO - Image header was read:
-2021-12-27 14:54:03,430 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,430 - root - INFO - datalength: 3524, _step: 2
-2021-12-27 14:54:03,430 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,430 - root - INFO - Resource 9 offset: 384988, length: 3712...
-2021-12-27 14:54:03,430 - root - DEBUG - Reading resource 9...
-2021-12-27 14:54:03,430 - root - INFO - The image is bme.
-2021-12-27 14:54:03,430 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,430 - root - INFO - Image header was read:
-2021-12-27 14:54:03,430 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,430 - root - INFO - datalength: 3696, _step: 2
-2021-12-27 14:54:03,430 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,446 - root - INFO - Resource 10 offset: 388700, length: 2440...
-2021-12-27 14:54:03,446 - root - DEBUG - Reading resource 10...
-2021-12-27 14:54:03,446 - root - INFO - The image is bme.
-2021-12-27 14:54:03,446 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,446 - root - INFO - Image header was read:
-2021-12-27 14:54:03,446 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,446 - root - INFO - datalength: 2424, _step: 2
-2021-12-27 14:54:03,446 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,446 - root - INFO - Resource 11 offset: 391140, length: 3828...
-2021-12-27 14:54:03,446 - root - DEBUG - Reading resource 11...
-2021-12-27 14:54:03,446 - root - INFO - The image is bme.
-2021-12-27 14:54:03,446 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,446 - root - INFO - Image header was read:
-2021-12-27 14:54:03,446 - root - INFO - Width: 50, Height: 59, RowLength: 100
-2021-12-27 14:54:03,446 - root - INFO - datalength: 3812, _step: 2
-2021-12-27 14:54:03,446 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,462 - root - INFO - Resource 12 offset: 394968, length: 3492...
-2021-12-27 14:54:03,462 - root - DEBUG - Reading resource 12...
-2021-12-27 14:54:03,462 - root - INFO - The image is bme.
-2021-12-27 14:54:03,462 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,462 - root - INFO - Image header was read:
-2021-12-27 14:54:03,462 - root - INFO - Width: 46, Height: 59, RowLength: 92
-2021-12-27 14:54:03,462 - root - INFO - datalength: 3476, _step: 2
-2021-12-27 14:54:03,462 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,462 - root - INFO - Resource 13 offset: 398460, length: 1528...
-2021-12-27 14:54:03,462 - root - DEBUG - Reading resource 13...
-2021-12-27 14:54:03,462 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,462 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,462 - root - INFO - Image header was read:
-2021-12-27 14:54:03,462 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,462 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,462 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,462 - root - INFO - Resource 14 offset: 399988, length: 1528...
-2021-12-27 14:54:03,462 - root - DEBUG - Reading resource 14...
-2021-12-27 14:54:03,462 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,462 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,462 - root - INFO - Image header was read:
-2021-12-27 14:54:03,462 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,462 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,462 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,462 - root - INFO - Resource 15 offset: 401516, length: 1528...
-2021-12-27 14:54:03,462 - root - DEBUG - Reading resource 15...
-2021-12-27 14:54:03,462 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,462 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,462 - root - INFO - Image header was read:
-2021-12-27 14:54:03,462 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,462 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,462 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,477 - root - INFO - Resource 16 offset: 403044, length: 1528...
-2021-12-27 14:54:03,477 - root - DEBUG - Reading resource 16...
-2021-12-27 14:54:03,477 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,477 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,477 - root - INFO - Image header was read:
-2021-12-27 14:54:03,477 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,477 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,477 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,477 - root - INFO - Resource 17 offset: 404572, length: 1528...
-2021-12-27 14:54:03,477 - root - DEBUG - Reading resource 17...
-2021-12-27 14:54:03,477 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,477 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,477 - root - INFO - Image header was read:
-2021-12-27 14:54:03,477 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,477 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,477 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,477 - root - INFO - Resource 18 offset: 406100, length: 1528...
-2021-12-27 14:54:03,477 - root - DEBUG - Reading resource 18...
-2021-12-27 14:54:03,477 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,477 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,477 - root - INFO - Image header was read:
-2021-12-27 14:54:03,477 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,477 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,477 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,477 - root - INFO - Resource 19 offset: 407628, length: 1528...
-2021-12-27 14:54:03,477 - root - DEBUG - Reading resource 19...
-2021-12-27 14:54:03,477 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,477 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,477 - root - INFO - Image header was read:
-2021-12-27 14:54:03,477 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,477 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,477 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,477 - root - INFO - Resource 20 offset: 409156, length: 1528...
-2021-12-27 14:54:03,477 - root - DEBUG - Reading resource 20...
-2021-12-27 14:54:03,477 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,477 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,477 - root - INFO - Image header was read:
-2021-12-27 14:54:03,477 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,477 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,477 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,477 - root - INFO - Resource 21 offset: 410684, length: 1528...
-2021-12-27 14:54:03,477 - root - DEBUG - Reading resource 21...
-2021-12-27 14:54:03,477 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,477 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,477 - root - INFO - Image header was read:
-2021-12-27 14:54:03,477 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,477 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,477 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 22 offset: 412212, length: 1528...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 22...
-2021-12-27 14:54:03,493 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,493 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,493 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 23 offset: 413740, length: 968...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 23...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 26, Height: 59, RowLength: 52
-2021-12-27 14:54:03,493 - root - INFO - datalength: 952, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 24 offset: 414708, length: 658...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 24...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,493 - root - INFO - datalength: 642, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 25 offset: 415366, length: 408...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 25...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,493 - root - INFO - datalength: 392, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 26 offset: 415774, length: 646...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 26...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,493 - root - INFO - datalength: 630, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 27 offset: 416420, length: 646...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 27...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,493 - root - INFO - datalength: 630, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 28 offset: 417066, length: 580...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 28...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,493 - root - INFO - datalength: 564, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 29 offset: 417646, length: 658...
-2021-12-27 14:54:03,493 - root - DEBUG - Reading resource 29...
-2021-12-27 14:54:03,493 - root - INFO - The image is bme.
-2021-12-27 14:54:03,493 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,493 - root - INFO - Image header was read:
-2021-12-27 14:54:03,493 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,493 - root - INFO - datalength: 642, _step: 2
-2021-12-27 14:54:03,493 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,493 - root - INFO - Resource 30 offset: 418304, length: 680...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 30...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,509 - root - INFO - datalength: 664, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,509 - root - INFO - Resource 31 offset: 418984, length: 448...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 31...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,509 - root - INFO - datalength: 432, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,509 - root - INFO - Resource 32 offset: 419432, length: 684...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 32...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,509 - root - INFO - datalength: 668, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,509 - root - INFO - Resource 33 offset: 420116, length: 682...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 33...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 18, Height: 28, RowLength: 36
-2021-12-27 14:54:03,509 - root - INFO - datalength: 666, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,509 - root - INFO - Resource 34 offset: 420798, length: 2024...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 34...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,509 - root - INFO - datalength: 2008, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,509 - root - INFO - Resource 35 offset: 422822, length: 2008...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 35...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,509 - root - INFO - datalength: 1992, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,509 - root - INFO - Resource 36 offset: 424830, length: 2502...
-2021-12-27 14:54:03,509 - root - DEBUG - Reading resource 36...
-2021-12-27 14:54:03,509 - root - INFO - The image is bme.
-2021-12-27 14:54:03,509 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,509 - root - INFO - Image header was read:
-2021-12-27 14:54:03,509 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,509 - root - INFO - datalength: 2486, _step: 2
-2021-12-27 14:54:03,509 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,524 - root - INFO - Resource 37 offset: 427332, length: 2094...
-2021-12-27 14:54:03,524 - root - DEBUG - Reading resource 37...
-2021-12-27 14:54:03,524 - root - INFO - The image is bme.
-2021-12-27 14:54:03,524 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,524 - root - INFO - Image header was read:
-2021-12-27 14:54:03,524 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,524 - root - INFO - datalength: 2078, _step: 2
-2021-12-27 14:54:03,524 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,524 - root - INFO - Resource 38 offset: 429426, length: 2280...
-2021-12-27 14:54:03,524 - root - DEBUG - Reading resource 38...
-2021-12-27 14:54:03,524 - root - INFO - The image is bme.
-2021-12-27 14:54:03,524 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,524 - root - INFO - Image header was read:
-2021-12-27 14:54:03,524 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,524 - root - INFO - datalength: 2264, _step: 2
-2021-12-27 14:54:03,524 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,524 - root - INFO - Resource 39 offset: 431706, length: 2110...
-2021-12-27 14:54:03,524 - root - DEBUG - Reading resource 39...
-2021-12-27 14:54:03,524 - root - INFO - The image is bme.
-2021-12-27 14:54:03,524 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,524 - root - INFO - Image header was read:
-2021-12-27 14:54:03,524 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,524 - root - INFO - datalength: 2094, _step: 2
-2021-12-27 14:54:03,524 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,524 - root - INFO - Resource 40 offset: 433816, length: 1698...
-2021-12-27 14:54:03,524 - root - DEBUG - Reading resource 40...
-2021-12-27 14:54:03,540 - root - INFO - The image is bme.
-2021-12-27 14:54:03,540 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,540 - root - INFO - Image header was read:
-2021-12-27 14:54:03,540 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,540 - root - INFO - datalength: 1682, _step: 2
-2021-12-27 14:54:03,540 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,540 - root - INFO - Resource 41 offset: 435514, length: 2284...
-2021-12-27 14:54:03,540 - root - DEBUG - Reading resource 41...
-2021-12-27 14:54:03,540 - root - INFO - The image is bme.
-2021-12-27 14:54:03,540 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,540 - root - INFO - Image header was read:
-2021-12-27 14:54:03,540 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,540 - root - INFO - datalength: 2268, _step: 2
-2021-12-27 14:54:03,540 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,540 - root - INFO - Resource 42 offset: 437798, length: 2110...
-2021-12-27 14:54:03,540 - root - DEBUG - Reading resource 42...
-2021-12-27 14:54:03,540 - root - INFO - The image is bme.
-2021-12-27 14:54:03,540 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,540 - root - INFO - Image header was read:
-2021-12-27 14:54:03,540 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,540 - root - INFO - datalength: 2094, _step: 2
-2021-12-27 14:54:03,540 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,540 - root - INFO - Resource 43 offset: 439908, length: 1966...
-2021-12-27 14:54:03,540 - root - DEBUG - Reading resource 43...
-2021-12-27 14:54:03,540 - root - INFO - The image is bme.
-2021-12-27 14:54:03,540 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,540 - root - INFO - Image header was read:
-2021-12-27 14:54:03,540 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,540 - root - INFO - datalength: 1950, _step: 2
-2021-12-27 14:54:03,540 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,540 - root - INFO - Resource 44 offset: 441874, length: 2310...
-2021-12-27 14:54:03,540 - root - DEBUG - Reading resource 44...
-2021-12-27 14:54:03,555 - root - INFO - The image is bme.
-2021-12-27 14:54:03,555 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,555 - root - INFO - Image header was read:
-2021-12-27 14:54:03,555 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,555 - root - INFO - datalength: 2294, _step: 2
-2021-12-27 14:54:03,555 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,555 - root - INFO - Resource 45 offset: 444184, length: 2194...
-2021-12-27 14:54:03,555 - root - DEBUG - Reading resource 45...
-2021-12-27 14:54:03,555 - root - INFO - The image is bme.
-2021-12-27 14:54:03,555 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,555 - root - INFO - Image header was read:
-2021-12-27 14:54:03,555 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,555 - root - INFO - datalength: 2178, _step: 2
-2021-12-27 14:54:03,555 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,555 - root - INFO - Resource 46 offset: 446378, length: 1452...
-2021-12-27 14:54:03,555 - root - DEBUG - Reading resource 46...
-2021-12-27 14:54:03,555 - root - INFO - The image is bme.
-2021-12-27 14:54:03,555 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,555 - root - INFO - Image header was read:
-2021-12-27 14:54:03,555 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,555 - root - INFO - datalength: 1436, _step: 2
-2021-12-27 14:54:03,555 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,555 - root - INFO - Resource 47 offset: 447830, length: 1682...
-2021-12-27 14:54:03,555 - root - DEBUG - Reading resource 47...
-2021-12-27 14:54:03,555 - root - INFO - The image is bme.
-2021-12-27 14:54:03,555 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,555 - root - INFO - Image header was read:
-2021-12-27 14:54:03,555 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,555 - root - INFO - datalength: 1666, _step: 2
-2021-12-27 14:54:03,555 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,555 - root - INFO - Resource 48 offset: 449512, length: 1690...
-2021-12-27 14:54:03,555 - root - DEBUG - Reading resource 48...
-2021-12-27 14:54:03,555 - root - INFO - The image is bme.
-2021-12-27 14:54:03,555 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,555 - root - INFO - Image header was read:
-2021-12-27 14:54:03,555 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,555 - root - INFO - datalength: 1674, _step: 2
-2021-12-27 14:54:03,555 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,571 - root - INFO - Resource 49 offset: 451202, length: 1626...
-2021-12-27 14:54:03,571 - root - DEBUG - Reading resource 49...
-2021-12-27 14:54:03,571 - root - INFO - The image is bme.
-2021-12-27 14:54:03,571 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,571 - root - INFO - Image header was read:
-2021-12-27 14:54:03,571 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,571 - root - INFO - datalength: 1610, _step: 2
-2021-12-27 14:54:03,571 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,571 - root - INFO - Resource 50 offset: 452828, length: 1654...
-2021-12-27 14:54:03,571 - root - DEBUG - Reading resource 50...
-2021-12-27 14:54:03,571 - root - INFO - The image is bme.
-2021-12-27 14:54:03,571 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,571 - root - INFO - Image header was read:
-2021-12-27 14:54:03,571 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,571 - root - INFO - datalength: 1638, _step: 2
-2021-12-27 14:54:03,571 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,571 - root - INFO - Resource 51 offset: 454482, length: 1686...
-2021-12-27 14:54:03,571 - root - DEBUG - Reading resource 51...
-2021-12-27 14:54:03,571 - root - INFO - The image is bme.
-2021-12-27 14:54:03,571 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,571 - root - INFO - Image header was read:
-2021-12-27 14:54:03,571 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,571 - root - INFO - datalength: 1670, _step: 2
-2021-12-27 14:54:03,571 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,571 - root - INFO - Resource 52 offset: 456168, length: 1486...
-2021-12-27 14:54:03,571 - root - DEBUG - Reading resource 52...
-2021-12-27 14:54:03,571 - root - INFO - The image is bme.
-2021-12-27 14:54:03,571 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,571 - root - INFO - Image header was read:
-2021-12-27 14:54:03,571 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,571 - root - INFO - datalength: 1470, _step: 2
-2021-12-27 14:54:03,571 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,587 - root - INFO - Resource 53 offset: 457654, length: 1746...
-2021-12-27 14:54:03,587 - root - DEBUG - Reading resource 53...
-2021-12-27 14:54:03,587 - root - INFO - The image is bme.
-2021-12-27 14:54:03,587 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,587 - root - INFO - Image header was read:
-2021-12-27 14:54:03,587 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,587 - root - INFO - datalength: 1730, _step: 2
-2021-12-27 14:54:03,587 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,587 - root - INFO - Resource 54 offset: 459400, length: 1684...
-2021-12-27 14:54:03,587 - root - DEBUG - Reading resource 54...
-2021-12-27 14:54:03,587 - root - INFO - The image is bme.
-2021-12-27 14:54:03,587 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,587 - root - INFO - Image header was read:
-2021-12-27 14:54:03,587 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,587 - root - INFO - datalength: 1668, _step: 2
-2021-12-27 14:54:03,587 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,587 - root - INFO - Resource 55 offset: 461084, length: 2076...
-2021-12-27 14:54:03,587 - root - DEBUG - Reading resource 55...
-2021-12-27 14:54:03,587 - root - INFO - The image is bme.
-2021-12-27 14:54:03,587 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,587 - root - INFO - Image header was read:
-2021-12-27 14:54:03,587 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,587 - root - INFO - datalength: 2060, _step: 2
-2021-12-27 14:54:03,587 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,587 - root - INFO - Resource 56 offset: 463160, length: 1826...
-2021-12-27 14:54:03,587 - root - DEBUG - Reading resource 56...
-2021-12-27 14:54:03,587 - root - INFO - The image is bme.
-2021-12-27 14:54:03,587 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,587 - root - INFO - Image header was read:
-2021-12-27 14:54:03,587 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,587 - root - INFO - datalength: 1810, _step: 2
-2021-12-27 14:54:03,587 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,587 - root - INFO - Resource 57 offset: 464986, length: 2034...
-2021-12-27 14:54:03,587 - root - DEBUG - Reading resource 57...
-2021-12-27 14:54:03,587 - root - INFO - The image is bme.
-2021-12-27 14:54:03,587 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,587 - root - INFO - Image header was read:
-2021-12-27 14:54:03,587 - root - INFO - Width: 64, Height: 28, RowLength: 128
-2021-12-27 14:54:03,587 - root - INFO - datalength: 2018, _step: 2
-2021-12-27 14:54:03,587 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,602 - root - INFO - Resource 58 offset: 467020, length: 2696...
-2021-12-27 14:54:03,602 - root - DEBUG - Reading resource 58...
-2021-12-27 14:54:03,602 - root - INFO - The image is bme.
-2021-12-27 14:54:03,602 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,602 - root - INFO - Image header was read:
-2021-12-27 14:54:03,602 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,602 - root - INFO - datalength: 2680, _step: 2
-2021-12-27 14:54:03,602 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,602 - root - INFO - Resource 59 offset: 469716, length: 1948...
-2021-12-27 14:54:03,602 - root - DEBUG - Reading resource 59...
-2021-12-27 14:54:03,602 - root - INFO - The image is bme.
-2021-12-27 14:54:03,602 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,602 - root - INFO - Image header was read:
-2021-12-27 14:54:03,602 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,602 - root - INFO - datalength: 1932, _step: 2
-2021-12-27 14:54:03,602 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,602 - root - INFO - Resource 60 offset: 471664, length: 2506...
-2021-12-27 14:54:03,602 - root - DEBUG - Reading resource 60...
-2021-12-27 14:54:03,602 - root - INFO - The image is bme.
-2021-12-27 14:54:03,602 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,602 - root - INFO - Image header was read:
-2021-12-27 14:54:03,602 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,602 - root - INFO - datalength: 2490, _step: 2
-2021-12-27 14:54:03,602 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,618 - root - INFO - Resource 61 offset: 474170, length: 2048...
-2021-12-27 14:54:03,618 - root - DEBUG - Reading resource 61...
-2021-12-27 14:54:03,618 - root - INFO - The image is bme.
-2021-12-27 14:54:03,618 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,618 - root - INFO - Image header was read:
-2021-12-27 14:54:03,618 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,618 - root - INFO - datalength: 2032, _step: 2
-2021-12-27 14:54:03,618 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,618 - root - INFO - Resource 62 offset: 476218, length: 1732...
-2021-12-27 14:54:03,618 - root - DEBUG - Reading resource 62...
-2021-12-27 14:54:03,618 - root - INFO - The image is bme.
-2021-12-27 14:54:03,618 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,618 - root - INFO - Image header was read:
-2021-12-27 14:54:03,618 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,618 - root - INFO - datalength: 1716, _step: 2
-2021-12-27 14:54:03,618 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,618 - root - INFO - Resource 63 offset: 477950, length: 1898...
-2021-12-27 14:54:03,618 - root - DEBUG - Reading resource 63...
-2021-12-27 14:54:03,618 - root - INFO - The image is bme.
-2021-12-27 14:54:03,618 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,618 - root - INFO - Image header was read:
-2021-12-27 14:54:03,618 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,618 - root - INFO - datalength: 1882, _step: 2
-2021-12-27 14:54:03,618 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,618 - root - INFO - Resource 64 offset: 479848, length: 2320...
-2021-12-27 14:54:03,618 - root - DEBUG - Reading resource 64...
-2021-12-27 14:54:03,618 - root - INFO - The image is bme.
-2021-12-27 14:54:03,618 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,618 - root - INFO - Image header was read:
-2021-12-27 14:54:03,618 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,618 - root - INFO - datalength: 2304, _step: 2
-2021-12-27 14:54:03,618 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,634 - root - INFO - Resource 65 offset: 482168, length: 3164...
-2021-12-27 14:54:03,634 - root - DEBUG - Reading resource 65...
-2021-12-27 14:54:03,634 - root - INFO - The image is bme.
-2021-12-27 14:54:03,634 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,634 - root - INFO - Image header was read:
-2021-12-27 14:54:03,634 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,634 - root - INFO - datalength: 3148, _step: 2
-2021-12-27 14:54:03,634 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,634 - root - INFO - Resource 66 offset: 485332, length: 3454...
-2021-12-27 14:54:03,634 - root - DEBUG - Reading resource 66...
-2021-12-27 14:54:03,634 - root - INFO - The image is bme.
-2021-12-27 14:54:03,634 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,634 - root - INFO - Image header was read:
-2021-12-27 14:54:03,634 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,634 - root - INFO - datalength: 3438, _step: 2
-2021-12-27 14:54:03,634 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,634 - root - INFO - Resource 67 offset: 488786, length: 3556...
-2021-12-27 14:54:03,634 - root - DEBUG - Reading resource 67...
-2021-12-27 14:54:03,634 - root - INFO - The image is bme.
-2021-12-27 14:54:03,634 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,634 - root - INFO - Image header was read:
-2021-12-27 14:54:03,634 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,634 - root - INFO - datalength: 3540, _step: 2
-2021-12-27 14:54:03,634 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,649 - root - INFO - Resource 68 offset: 492342, length: 4138...
-2021-12-27 14:54:03,649 - root - DEBUG - Reading resource 68...
-2021-12-27 14:54:03,649 - root - INFO - The image is bme.
-2021-12-27 14:54:03,649 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,649 - root - INFO - Image header was read:
-2021-12-27 14:54:03,649 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,649 - root - INFO - datalength: 4122, _step: 2
-2021-12-27 14:54:03,649 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,649 - root - INFO - Resource 69 offset: 496480, length: 3816...
-2021-12-27 14:54:03,649 - root - DEBUG - Reading resource 69...
-2021-12-27 14:54:03,649 - root - INFO - The image is bme.
-2021-12-27 14:54:03,649 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,649 - root - INFO - Image header was read:
-2021-12-27 14:54:03,649 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,649 - root - INFO - datalength: 3800, _step: 2
-2021-12-27 14:54:03,649 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,665 - root - INFO - Resource 70 offset: 500296, length: 3764...
-2021-12-27 14:54:03,665 - root - DEBUG - Reading resource 70...
-2021-12-27 14:54:03,665 - root - INFO - The image is bme.
-2021-12-27 14:54:03,665 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,665 - root - INFO - Image header was read:
-2021-12-27 14:54:03,665 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,665 - root - INFO - datalength: 3748, _step: 2
-2021-12-27 14:54:03,665 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,665 - root - INFO - Resource 71 offset: 504060, length: 3948...
-2021-12-27 14:54:03,665 - root - DEBUG - Reading resource 71...
-2021-12-27 14:54:03,665 - root - INFO - The image is bme.
-2021-12-27 14:54:03,665 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,665 - root - INFO - Image header was read:
-2021-12-27 14:54:03,665 - root - INFO - Width: 89, Height: 32, RowLength: 178
-2021-12-27 14:54:03,665 - root - INFO - datalength: 3932, _step: 2
-2021-12-27 14:54:03,665 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,680 - root - INFO - Resource 72 offset: 508008, length: 1464...
-2021-12-27 14:54:03,680 - root - DEBUG - Reading resource 72...
-2021-12-27 14:54:03,680 - root - INFO - The image is bme.
-2021-12-27 14:54:03,680 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,680 - root - INFO - Image header was read:
-2021-12-27 14:54:03,680 - root - INFO - Width: 64, Height: 32, RowLength: 128
-2021-12-27 14:54:03,680 - root - INFO - datalength: 1448, _step: 2
-2021-12-27 14:54:03,680 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,680 - root - INFO - Resource 73 offset: 509472, length: 1500...
-2021-12-27 14:54:03,680 - root - DEBUG - Reading resource 73...
-2021-12-27 14:54:03,680 - root - INFO - The image is bme.
-2021-12-27 14:54:03,680 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,680 - root - INFO - Image header was read:
-2021-12-27 14:54:03,680 - root - INFO - Width: 64, Height: 32, RowLength: 128
-2021-12-27 14:54:03,680 - root - INFO - datalength: 1484, _step: 2
-2021-12-27 14:54:03,680 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,680 - root - INFO - Resource 74 offset: 510972, length: 1738...
-2021-12-27 14:54:03,680 - root - DEBUG - Reading resource 74...
-2021-12-27 14:54:03,680 - root - INFO - The image is bme.
-2021-12-27 14:54:03,680 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,680 - root - INFO - Image header was read:
-2021-12-27 14:54:03,680 - root - INFO - Width: 64, Height: 32, RowLength: 128
-2021-12-27 14:54:03,680 - root - INFO - datalength: 1722, _step: 2
-2021-12-27 14:54:03,680 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,680 - root - INFO - Resource 75 offset: 512710, length: 1730...
-2021-12-27 14:54:03,680 - root - DEBUG - Reading resource 75...
-2021-12-27 14:54:03,680 - root - INFO - The image is bme.
-2021-12-27 14:54:03,680 - root - INFO - Reading image header(readHeader16E)...
-2021-12-27 14:54:03,680 - root - INFO - Image header was read:
-2021-12-27 14:54:03,680 - root - INFO - Width: 64, Height: 32, RowLength: 128
-2021-12-27 14:54:03,680 - root - INFO - datalength: 1714, _step: 2
-2021-12-27 14:54:03,680 - root - INFO - BPP: 16, Transparency: False
-2021-12-27 14:54:03,696 - root - INFO - Resource 76 offset: 514440, length: 2200...
-2021-12-27 14:54:03,696 - root - DEBUG - Reading resource 76...
-2021-12-27 14:54:03,696 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,696 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,696 - root - INFO - Image header was read:
-2021-12-27 14:54:03,696 - root - INFO - Width: 26, Height: 28, RowLength: 78
-2021-12-27 14:54:03,696 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,696 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,696 - root - INFO - Resource 77 offset: 516640, length: 1528...
-2021-12-27 14:54:03,696 - root - DEBUG - Reading resource 77...
-2021-12-27 14:54:03,696 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,696 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,696 - root - INFO - Image header was read:
-2021-12-27 14:54:03,696 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,696 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,696 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,696 - root - INFO - Resource 78 offset: 518168, length: 1528...
-2021-12-27 14:54:03,696 - root - DEBUG - Reading resource 78...
-2021-12-27 14:54:03,696 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,696 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,696 - root - INFO - Image header was read:
-2021-12-27 14:54:03,696 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,696 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,696 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,696 - root - INFO - Resource 79 offset: 519696, length: 1528...
-2021-12-27 14:54:03,696 - root - DEBUG - Reading resource 79...
-2021-12-27 14:54:03,696 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,696 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,696 - root - INFO - Image header was read:
-2021-12-27 14:54:03,696 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,696 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,696 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,696 - root - INFO - Resource 80 offset: 521224, length: 1528...
-2021-12-27 14:54:03,696 - root - DEBUG - Reading resource 80...
-2021-12-27 14:54:03,696 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,696 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,696 - root - INFO - Image header was read:
-2021-12-27 14:54:03,696 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,696 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,696 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,696 - root - INFO - Resource 81 offset: 522752, length: 1528...
-2021-12-27 14:54:03,696 - root - DEBUG - Reading resource 81...
-2021-12-27 14:54:03,696 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,696 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,696 - root - INFO - Image header was read:
-2021-12-27 14:54:03,712 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,712 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,712 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,712 - root - INFO - Resource 82 offset: 524280, length: 1528...
-2021-12-27 14:54:03,712 - root - DEBUG - Reading resource 82...
-2021-12-27 14:54:03,712 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,712 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,712 - root - INFO - Image header was read:
-2021-12-27 14:54:03,712 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,712 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,712 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,712 - root - INFO - Resource 83 offset: 525808, length: 1528...
-2021-12-27 14:54:03,712 - root - DEBUG - Reading resource 83...
-2021-12-27 14:54:03,712 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,712 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,712 - root - INFO - Image header was read:
-2021-12-27 14:54:03,712 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,712 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,712 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,712 - root - INFO - Resource 84 offset: 527336, length: 1528...
-2021-12-27 14:54:03,712 - root - DEBUG - Reading resource 84...
-2021-12-27 14:54:03,712 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,712 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,712 - root - INFO - Image header was read:
-2021-12-27 14:54:03,712 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,712 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,712 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,712 - root - INFO - Resource 85 offset: 528864, length: 1528...
-2021-12-27 14:54:03,712 - root - DEBUG - Reading resource 85...
-2021-12-27 14:54:03,712 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,712 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,712 - root - INFO - Image header was read:
-2021-12-27 14:54:03,712 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,712 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,712 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,712 - root - INFO - Resource 86 offset: 530392, length: 1528...
-2021-12-27 14:54:03,712 - root - DEBUG - Reading resource 86...
-2021-12-27 14:54:03,712 - root - INFO - The image is bmc.
-2021-12-27 14:54:03,712 - root - INFO - Reading image header(readHeader16C)...
-2021-12-27 14:54:03,712 - root - INFO - Image header was read:
-2021-12-27 14:54:03,712 - root - INFO - Width: 18, Height: 28, RowLength: 54
-2021-12-27 14:54:03,712 - root - INFO - _step: 3, unknown2: 0,
-2021-12-27 14:54:03,712 - root - INFO - BPP: 24, Transparency: False
-2021-12-27 14:54:03,712 - root - DEBUG - Parsing parameters...
-2021-12-27 14:54:03,774 - root - DEBUG - 0 Value: None
-2021-12-27 14:54:03,774 - root - DEBUG - 0.1 Value: 71
-2021-12-27 14:54:03,774 - root - DEBUG - 2 Value: None
-2021-12-27 14:54:03,774 - root - DEBUG - 2.1 Value: None
-2021-12-27 14:54:03,774 - root - DEBUG - 2.1.1 Value: 0
-2021-12-27 14:54:03,774 - root - DEBUG - 2.1.2 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.1.3 Value: 2
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3.1 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3.2 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3.3 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4.1 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4.2 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4.3 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5.1 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5.2 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5.3 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 3 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.1 Value: 87
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.2 Value: 39
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.3 Value: 3
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.4 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.1 Value: 133
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.2 Value: 39
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.3 Value: 3
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.4 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.1 Value: 205
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.2 Value: 39
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.3 Value: 3
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.4 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.1 Value: 251
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.2 Value: 39
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.3 Value: 3
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.4 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.1 Value: 91
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.2 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.3 Value: 13
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.4 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.2 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.2.1 Value: 110
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.2.2 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.2.3 Value: 13
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.2.4 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.5 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.5.1 Value: 179
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.5.2 Value: 39
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.5.3 Value: 23
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.7 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.8 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 4 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.1 Value: 128
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.2 Value: 251
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.3 Value: 222
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.4 Value: 279
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.5 Value: 20
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.6 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.7 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.8 Value: 13
-2021-12-27 14:54:03,790 - root - DEBUG - 4.1.1.9 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.1 Value: 16
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.2 Value: 128
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.3 Value: 72
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.4 Value: 156
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.5 Value: 20
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.6 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.7 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.8 Value: 13
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.1.9 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 4.4.3 Value: 76
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.1 Value: 16
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.2 Value: 39
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.3 Value: 72
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.4 Value: 67
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.5 Value: 20
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.6 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.7 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.8 Value: 77
-2021-12-27 14:54:03,790 - root - DEBUG - 4.6.1.9 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 4.7 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 5 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.1 Value: 34
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.2 Value: 195
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.3 Value: 71
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.4 Value: 223
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.5 Value: 18
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.6 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.7 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.8 Value: 24
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.3.9 Value: 10
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.4 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.5 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.6 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.6.1 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.6.2 Value: 165
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.6.3 Value: 34
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.6.4 Value: 12
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.7 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.7.1 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.7.2 Value: 165
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.7.3 Value: 46
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.9.7.4 Value: 12
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.4 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.5 Value: 1
-2021-12-27 14:54:03,790 - root - DEBUG - 5.1.6 Value: 0
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2.1 Value: 159
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2.2 Value: 5
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2.3 Value: 72
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2.4 Value: 73
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2.5 Value: 74
-2021-12-27 14:54:03,790 - root - DEBUG - 5.2.6 Value: 75
-2021-12-27 14:54:03,790 - root - DEBUG - 5.4 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.4.1 Value: 207
-2021-12-27 14:54:03,790 - root - DEBUG - 5.4.2 Value: 190
-2021-12-27 14:54:03,790 - root - DEBUG - 5.4.3 Value: 58
-2021-12-27 14:54:03,790 - root - DEBUG - 5.4.4 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 5.5 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.5.1 Value: 207
-2021-12-27 14:54:03,790 - root - DEBUG - 5.5.2 Value: 190
-2021-12-27 14:54:03,790 - root - DEBUG - 5.5.3 Value: 65
-2021-12-27 14:54:03,790 - root - DEBUG - 5.5.4 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 5.6 Value: None
-2021-12-27 14:54:03,790 - root - DEBUG - 5.6.1 Value: 207
-2021-12-27 14:54:03,790 - root - DEBUG - 5.6.2 Value: 190
-2021-12-27 14:54:03,790 - root - DEBUG - 5.6.3 Value: 65
-2021-12-27 14:54:03,790 - root - DEBUG - 5.6.4 Value: 7
-2021-12-27 14:54:03,790 - root - DEBUG - 0-Info
-2021-12-27 14:54:03,790 - root - DEBUG - 0.1-DeviceId
-2021-12-27 14:54:03,790 - root - DEBUG - 2-Background
-2021-12-27 14:54:03,790 - root - DEBUG - 2.1-Image
-2021-12-27 14:54:03,790 - root - DEBUG - 2.1.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 2.1.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 2.1.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3-Preview
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 2.3.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4-PreviewKorean
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 2.4.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5-PreviewChinese
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 2.5.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 3-TimeExtended
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1-TimeSeparateDigits
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1-Hours
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1-Tens
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.1.4-ImagesCount
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2-Ones
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.1.2.4-ImagesCount
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2-Minutes
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1-Tens
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.1.4-ImagesCount
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2-Ones
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.2.2.4-ImagesCount
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3-Seconds
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1-Tens
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.1-X
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.2-Y
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.3-ImageIndex
-2021-12-27 14:54:03,790 - root - DEBUG - 3.1.3.1.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.3.2-Ones
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.3.2.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.3.2.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.3.2.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.3.2.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.5-SeparatorHours
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.5.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.5.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.5.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.7-PaddingZeroHours
-2021-12-27 14:54:03,805 - root - DEBUG - 3.1.8-PaddingZeroMinutes
-2021-12-27 14:54:03,805 - root - DEBUG - 4-Activity
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1-Steps
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1-ImageNumber
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.1-TopLeftX
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.2-TopLeftY
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.3-BottomRightX
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.4-BottomRightY
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.5-Alignment
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.6-Spacing
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.7-VerticalOffset
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.8-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 4.1.1.9-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4-HeartRate
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1-ImageNumber
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.1-TopLeftX
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.2-TopLeftY
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.3-BottomRightX
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.4-BottomRightY
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.5-Alignment
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.6-Spacing
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.7-VerticalOffset
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.8-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.1.9-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 4.4.3-NoDataImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6-PAI
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1-ImageNumber
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.1-TopLeftX
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.2-TopLeftY
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.3-BottomRightX
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.4-BottomRightY
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.5-Alignment
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.6-Spacing
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.7-VerticalOffset
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.8-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 4.6.1.9-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 4.7-UnknownLongValue7
-2021-12-27 14:54:03,805 - root - DEBUG - 5-DateBlock
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1-Date
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9-MonthAndDay
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3-Day
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.1-TopLeftX
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.2-TopLeftY
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.3-BottomRightX
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.4-BottomRightY
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.5-Alignment
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.6-Spacing
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.7-VerticalOffset
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.8-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.3.9-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.4-MonthFollowsYear
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.5-DayFollowsMonth
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.6-MonthAsWord
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.6.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.6.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.6.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.6.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.7-MonthAsWordChinese
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.7.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.7.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.7.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.9.7.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.4-PaddingZeroMonth
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.5-PaddingZeroDay
-2021-12-27 14:54:03,805 - root - DEBUG - 5.1.6-Unknown6
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2-AmPm
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2.1-CommonX
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2.2-CommonY
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2.3-ImageIndexAMCN
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2.4-ImageIndexPMCN
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2.5-AmImageIndexEN
-2021-12-27 14:54:03,805 - root - DEBUG - 5.2.6-PmImageIndexEN
-2021-12-27 14:54:03,805 - root - DEBUG - 5.4-Weekday
-2021-12-27 14:54:03,805 - root - DEBUG - 5.4.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 5.4.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 5.4.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 5.4.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 5.5-WeekdayChinese
-2021-12-27 14:54:03,805 - root - DEBUG - 5.5.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 5.5.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 5.5.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 5.5.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - 5.6-WeekdayKorean
-2021-12-27 14:54:03,805 - root - DEBUG - 5.6.1-X
-2021-12-27 14:54:03,805 - root - DEBUG - 5.6.2-Y
-2021-12-27 14:54:03,805 - root - DEBUG - 5.6.3-ImageIndex
-2021-12-27 14:54:03,805 - root - DEBUG - 5.6.4-ImagesCount
-2021-12-27 14:54:03,805 - root - DEBUG - generatePreviews
-2021-12-27 14:54:03,805 - root - DEBUG - Generating previews...
-2021-12-27 14:54:03,805 - root - DEBUG - Generating states done...
-2021-12-27 14:54:03,821 - root - DEBUG - >>>>>>>>>>>> 0 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFF40C8>
-2021-12-27 14:54:03,821 - root - DEBUG - >>>>>>>>>>>> 2 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFE5D08>
-2021-12-27 14:54:03,821 - root - DEBUG - >>>>>>>>>>>> 3 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFE5848>
-2021-12-27 14:54:03,821 - root - DEBUG - >>>>>>>>>>>> 4 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFEE048>
-2021-12-27 14:54:03,837 - root - DEBUG - >>>>>>>>>>>> 5 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFF4348>
-2021-12-27 14:54:03,852 - root - DEBUG - Generating static preview gen done...
-2021-12-27 14:54:03,899 - root - DEBUG - Generating static preview save done...
-2021-12-27 14:54:03,899 - root - DEBUG - Generating anim preview gen done...
-2021-12-27 14:54:03,899 - root - DEBUG - >>>>>>>>>>>> 0 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFF40C8>
-2021-12-27 14:54:03,899 - root - DEBUG - >>>>>>>>>>>> 2 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFE5D08>
-2021-12-27 14:54:03,899 - root - DEBUG - >>>>>>>>>>>> 3 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFE5848>
-2021-12-27 14:54:03,899 - root - DEBUG - >>>>>>>>>>>> 4 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFEE048>
-2021-12-27 14:54:03,899 - root - DEBUG - >>>>>>>>>>>> 5 <watchFaceParser.models.parameter.Parameter object at 0x0000023FFEFF4348>
-2021-12-27 14:54:03,993 - root - DEBUG - generatePreviews done
-2021-12-27 14:54:03,993 - root - DEBUG - Exporting resources to 'e7fb2653e13c8747e82ce500ec321d65'
-2021-12-27 14:54:03,993 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0000.png...
-2021-12-27 14:54:03,993 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0001.png...
-2021-12-27 14:54:04,009 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0002.png...
-2021-12-27 14:54:04,009 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0003.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0004.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0005.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0006.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0007.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0008.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0009.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0010.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0011.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0012.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0013.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0014.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0015.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0016.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0017.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0018.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0019.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0020.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0021.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0022.png...
-2021-12-27 14:54:04,024 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0023.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0024.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0025.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0026.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0027.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0028.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0029.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0030.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0031.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0032.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0033.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0034.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0035.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0036.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0037.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0038.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0039.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0040.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0041.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0042.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0043.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0044.png...
-2021-12-27 14:54:04,040 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0045.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0046.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0047.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0048.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0049.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0050.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0051.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0052.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0053.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0054.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0055.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0056.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0057.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0058.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0059.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0060.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0061.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0062.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0063.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0064.png...
-2021-12-27 14:54:04,055 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0065.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0066.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0067.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0068.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0069.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0070.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0071.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0072.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0073.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0074.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0075.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0076.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0077.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0078.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0079.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0080.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0081.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0082.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0083.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0084.png...
-2021-12-27 14:54:04,071 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0085.png...
-2021-12-27 14:54:04,087 - root - DEBUG - extracting e7fb2653e13c8747e82ce500ec321d65\0086.png...
-2021-12-27 14:54:04,087 - root - DEBUG - Exporting config...
+2021-12-28 10:55:53,951 - root - DEBUG - Opening watch face 'E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65.bin'
+2021-12-28 10:55:53,966 - root - DEBUG - Reading parameters...
+2021-12-28 10:55:53,966 - root - INFO - Reading header...
+2021-12-28 10:55:53,967 - root - INFO - Header was read:
+2021-12-28 10:55:53,967 - root - INFO - Signature: b'UIHH\x01\x00\xff', Unknown: 109, ParametersSize: 32, isValid: True, deviceId: 71
+2021-12-28 10:55:53,967 - root - INFO - Reading parameter offsets...
+2021-12-28 10:55:53,967 - root - INFO - Parameter offsets were read from file
+2021-12-28 10:55:53,968 - root - INFO - Reading parameters descriptor...
+2021-12-28 10:55:53,968 - root - INFO - 1 ( A): 5 bytes
+2021-12-28 10:55:53,968 - root - INFO -     1 ( 8): 301 12D
+2021-12-28 10:55:53,968 - root - INFO -     2 (10): 87 57
+2021-12-28 10:55:53,968 - root - INFO - getParameters descriptor was read:
+2021-12-28 10:55:53,968 - root - INFO - ParametersTableLength: 301, ImagesCount: 87
+2021-12-28 10:55:53,968 - root - INFO - Reading parameters locations...
+2021-12-28 10:55:53,968 - root - INFO - 2 (12): 4 bytes
+2021-12-28 10:55:53,968 - root - INFO -     1 ( 8): 0  0
+2021-12-28 10:55:53,968 - root - INFO -     2 (10): 32 20
+2021-12-28 10:55:53,969 - root - INFO - 3 (1A): 4 bytes
+2021-12-28 10:55:53,969 - root - INFO -     1 ( 8): 32 20
+2021-12-28 10:55:53,969 - root - INFO -     2 (10): 84 54
+2021-12-28 10:55:53,969 - root - INFO - 4 (22): 5 bytes
+2021-12-28 10:55:53,969 - root - INFO -     1 ( 8): 225 E1
+2021-12-28 10:55:53,969 - root - INFO -     2 (10): 76 4C
+2021-12-28 10:55:53,969 - root - INFO - 5 (2A): 4 bytes
+2021-12-28 10:55:53,969 - root - INFO -     1 ( 8): 116 74
+2021-12-28 10:55:53,970 - root - INFO -     2 (10): 109 6D
+2021-12-28 10:55:53,970 - root - INFO - Watch face parameters locations were read:
+2021-12-28 10:55:53,974 - root - INFO - Reading descriptor for parameter 2
+2021-12-28 10:55:53,974 - root - INFO - Descriptor offset: 0, Descriptor length: 32
+2021-12-28 10:55:53,974 - root - INFO - Parsing descriptor for parameter 2...
+2021-12-28 10:55:53,974 - root - INFO - 1 ( A): 6 bytes
+2021-12-28 10:55:53,974 - root - INFO -     1 ( 8): 0  0
+2021-12-28 10:55:53,974 - root - INFO -     2 (10): 0  0
+2021-12-28 10:55:53,974 - root - INFO -     3 (18): 2  2
+2021-12-28 10:55:53,974 - root - INFO - 3 (1A): 6 bytes
+2021-12-28 10:55:53,974 - root - INFO -     1 ( 8): 0  0
+2021-12-28 10:55:53,974 - root - INFO -     2 (10): 0  0
+2021-12-28 10:55:53,975 - root - INFO -     3 (18): 1  1
+2021-12-28 10:55:53,975 - root - INFO - 4 (22): 6 bytes
+2021-12-28 10:55:53,975 - root - INFO -     1 ( 8): 0  0
+2021-12-28 10:55:53,975 - root - INFO -     2 (10): 0  0
+2021-12-28 10:55:53,975 - root - INFO -     3 (18): 0  0
+2021-12-28 10:55:53,975 - root - INFO - 5 (2A): 6 bytes
+2021-12-28 10:55:53,975 - root - INFO -     1 ( 8): 0  0
+2021-12-28 10:55:53,975 - root - INFO -     2 (10): 0  0
+2021-12-28 10:55:53,975 - root - INFO -     3 (18): 0  0
+2021-12-28 10:55:53,976 - root - INFO - Reading descriptor for parameter 3
+2021-12-28 10:55:53,977 - root - INFO - Descriptor offset: 32, Descriptor length: 84
+2021-12-28 10:55:53,977 - root - INFO - Parsing descriptor for parameter 3...
+2021-12-28 10:55:53,977 - root - INFO - 1 ( A): 82 bytes
+2021-12-28 10:55:53,977 - root - INFO -     1 ( A): 21 bytes
+2021-12-28 10:55:53,977 - root - INFO -         1 ( A): 8 bytes
+2021-12-28 10:55:53,977 - root - INFO -             1 ( 8): 87 57
+2021-12-28 10:55:53,977 - root - INFO -             2 (10): 39 27
+2021-12-28 10:55:53,978 - root - INFO -             3 (18): 3  3
+2021-12-28 10:55:53,978 - root - INFO -             4 (20): 10  A
+2021-12-28 10:55:53,978 - root - INFO -         2 (12): 9 bytes
+2021-12-28 10:55:53,978 - root - INFO -             1 ( 8): 133 85
+2021-12-28 10:55:53,978 - root - INFO -             2 (10): 39 27
+2021-12-28 10:55:53,978 - root - INFO -             3 (18): 3  3
+2021-12-28 10:55:53,978 - root - INFO -             4 (20): 10  A
+2021-12-28 10:55:53,978 - root - INFO -     2 (12): 22 bytes
+2021-12-28 10:55:53,979 - root - INFO -         1 ( A): 9 bytes
+2021-12-28 10:55:53,979 - root - INFO -             1 ( 8): 205 CD
+2021-12-28 10:55:53,979 - root - INFO -             2 (10): 39 27
+2021-12-28 10:55:53,979 - root - INFO -             3 (18): 3  3
+2021-12-28 10:55:53,979 - root - INFO -             4 (20): 10  A
+2021-12-28 10:55:53,979 - root - INFO -         2 (12): 9 bytes
+2021-12-28 10:55:53,979 - root - INFO -             1 ( 8): 251 FB
+2021-12-28 10:55:53,979 - root - INFO -             2 (10): 39 27
+2021-12-28 10:55:53,979 - root - INFO -             3 (18): 3  3
+2021-12-28 10:55:53,980 - root - INFO -             4 (20): 10  A
+2021-12-28 10:55:53,980 - root - INFO -     3 (1A): 20 bytes
+2021-12-28 10:55:53,980 - root - INFO -         1 ( A): 8 bytes
+2021-12-28 10:55:53,980 - root - INFO -             1 ( 8): 91 5B
+2021-12-28 10:55:53,980 - root - INFO -             2 (10): 7  7
+2021-12-28 10:55:53,980 - root - INFO -             3 (18): 13  D
+2021-12-28 10:55:53,980 - root - INFO -             4 (20): 10  A
+2021-12-28 10:55:53,980 - root - INFO -         2 (12): 8 bytes
+2021-12-28 10:55:53,980 - root - INFO -             1 ( 8): 110 6E
+2021-12-28 10:55:53,980 - root - INFO -             2 (10): 7  7
+2021-12-28 10:55:53,980 - root - INFO -             3 (18): 13  D
+2021-12-28 10:55:53,981 - root - INFO -             4 (20): 10  A
+2021-12-28 10:55:53,981 - root - INFO -     5 (2A): 7 bytes
+2021-12-28 10:55:53,981 - root - INFO -         1 ( 8): 179 B3
+2021-12-28 10:55:53,981 - root - INFO -         2 (10): 39 27
+2021-12-28 10:55:53,982 - root - INFO -         3 (18): 23 17
+2021-12-28 10:55:53,982 - root - INFO -     7 (38): 0  0
+2021-12-28 10:55:53,982 - root - INFO -     8 (40): 1  1
+2021-12-28 10:55:53,983 - root - INFO - Reading descriptor for parameter 4
+2021-12-28 10:55:53,984 - root - INFO - Descriptor offset: 225, Descriptor length: 76
+2021-12-28 10:55:53,984 - root - INFO - Parsing descriptor for parameter 4...
+2021-12-28 10:55:53,984 - root - INFO - 1 ( A): 24 bytes
+2021-12-28 10:55:53,984 - root - INFO -     1 ( A): 22 bytes
+2021-12-28 10:55:53,984 - root - INFO -         1 ( 8): 128 80
+2021-12-28 10:55:53,984 - root - INFO -         2 (10): 251 FB
+2021-12-28 10:55:53,984 - root - INFO -         3 (18): 222 DE
+2021-12-28 10:55:53,984 - root - INFO -         4 (20): 279 117
+2021-12-28 10:55:53,984 - root - INFO -         5 (28): 20 14
+2021-12-28 10:55:53,984 - root - INFO -         6 (30): 1  1
+2021-12-28 10:55:53,985 - root - INFO -         7 (38): 0  0
+2021-12-28 10:55:53,985 - root - INFO -         8 (40): 13  D
+2021-12-28 10:55:53,985 - root - INFO -         9 (48): 10  A
+2021-12-28 10:55:53,985 - root - INFO - 4 (22): 24 bytes
+2021-12-28 10:55:53,985 - root - INFO -     1 ( A): 20 bytes
+2021-12-28 10:55:53,986 - root - INFO -         1 ( 8): 16 10
+2021-12-28 10:55:53,986 - root - INFO -         2 (10): 128 80
+2021-12-28 10:55:53,986 - root - INFO -         3 (18): 72 48
+2021-12-28 10:55:53,986 - root - INFO -         4 (20): 156 9C
+2021-12-28 10:55:53,986 - root - INFO -         5 (28): 20 14
+2021-12-28 10:55:53,986 - root - INFO -         6 (30): 1  1
+2021-12-28 10:55:53,986 - root - INFO -         7 (38): 0  0
+2021-12-28 10:55:53,986 - root - INFO -         8 (40): 13  D
+2021-12-28 10:55:53,986 - root - INFO -         9 (48): 10  A
+2021-12-28 10:55:53,986 - root - INFO -     3 (18): 76 4C
+2021-12-28 10:55:53,987 - root - INFO - 6 (32): 20 bytes
+2021-12-28 10:55:53,987 - root - INFO -     1 ( A): 18 bytes
+2021-12-28 10:55:53,987 - root - INFO -         1 ( 8): 16 10
+2021-12-28 10:55:53,987 - root - INFO -         2 (10): 39 27
+2021-12-28 10:55:53,987 - root - INFO -         3 (18): 72 48
+2021-12-28 10:55:53,987 - root - INFO -         4 (20): 67 43
+2021-12-28 10:55:53,987 - root - INFO -         5 (28): 20 14
+2021-12-28 10:55:53,988 - root - INFO -         6 (30): 1  1
+2021-12-28 10:55:53,988 - root - INFO -         7 (38): 0  0
+2021-12-28 10:55:53,988 - root - INFO -         8 (40): 77 4D
+2021-12-28 10:55:53,988 - root - INFO -         9 (48): 10  A
+2021-12-28 10:55:53,988 - root - INFO - 7 (38): 0  0
+2021-12-28 10:55:53,989 - root - INFO - Reading descriptor for parameter 5
+2021-12-28 10:55:53,989 - root - INFO - Descriptor offset: 116, Descriptor length: 109
+2021-12-28 10:55:53,990 - root - INFO - Parsing descriptor for parameter 5...
+2021-12-28 10:55:53,990 - root - INFO - 1 ( A): 56 bytes
+2021-12-28 10:55:53,991 - root - INFO -     9 (4A): 48 bytes
+2021-12-28 10:55:53,991 - root - INFO -         3 (1A): 20 bytes
+2021-12-28 10:55:53,991 - root - INFO -             1 ( 8): 34 22
+2021-12-28 10:55:53,991 - root - INFO -             2 (10): 195 C3
+2021-12-28 10:55:53,991 - root - INFO -             3 (18): 71 47
+2021-12-28 10:55:53,991 - root - INFO -             4 (20): 223 DF
+2021-12-28 10:55:53,991 - root - INFO -             5 (28): 18 12
+2021-12-28 10:55:53,991 - root - INFO -             6 (30): 1  1
+2021-12-28 10:55:53,992 - root - INFO -             7 (38): 0  0
+2021-12-28 10:55:53,992 - root - INFO -             8 (40): 24 18
+2021-12-28 10:55:53,992 - root - INFO -             9 (48): 10  A
+2021-12-28 10:55:53,992 - root - INFO -         4 (20): 0  0
+2021-12-28 10:55:53,992 - root - INFO -         5 (28): 0  0
+2021-12-28 10:55:53,992 - root - INFO -         6 (32): 9 bytes
+2021-12-28 10:55:53,992 - root - INFO -             1 ( 8): 7  7
+2021-12-28 10:55:53,992 - root - INFO -             2 (10): 165 A5
+2021-12-28 10:55:53,992 - root - INFO -             3 (18): 34 22
+2021-12-28 10:55:53,993 - root - INFO -             4 (20): 12  C
+2021-12-28 10:55:53,993 - root - INFO -         7 (3A): 9 bytes
+2021-12-28 10:55:53,993 - root - INFO -             1 ( 8): 7  7
+2021-12-28 10:55:53,993 - root - INFO -             2 (10): 165 A5
+2021-12-28 10:55:53,993 - root - INFO -             3 (18): 46 2E
+2021-12-28 10:55:53,993 - root - INFO -             4 (20): 12  C
+2021-12-28 10:55:53,993 - root - INFO -     4 (20): 1  1
+2021-12-28 10:55:53,994 - root - INFO -     5 (28): 1  1
+2021-12-28 10:55:53,994 - root - INFO -     6 (30): 0  0
+2021-12-28 10:55:53,994 - root - INFO - 2 (12): 13 bytes
+2021-12-28 10:55:53,994 - root - INFO -     1 ( 8): 159 9F
+2021-12-28 10:55:53,994 - root - INFO -     2 (10): 5  5
+2021-12-28 10:55:53,994 - root - INFO -     3 (18): 72 48
+2021-12-28 10:55:53,994 - root - INFO -     4 (20): 73 49
+2021-12-28 10:55:53,994 - root - INFO -     5 (28): 74 4A
+2021-12-28 10:55:53,994 - root - INFO -     6 (30): 75 4B
+2021-12-28 10:55:53,995 - root - INFO - 4 (22): 10 bytes
+2021-12-28 10:55:53,995 - root - INFO -     1 ( 8): 207 CF
+2021-12-28 10:55:53,995 - root - INFO -     2 (10): 190 BE
+2021-12-28 10:55:53,995 - root - INFO -     3 (18): 58 3A
+2021-12-28 10:55:53,995 - root - INFO -     4 (20): 7  7
+2021-12-28 10:55:53,995 - root - INFO - 5 (2A): 10 bytes
+2021-12-28 10:55:53,996 - root - INFO -     1 ( 8): 207 CF
+2021-12-28 10:55:53,996 - root - INFO -     2 (10): 190 BE
+2021-12-28 10:55:53,996 - root - INFO -     3 (18): 65 41
+2021-12-28 10:55:53,996 - root - INFO -     4 (20): 7  7
+2021-12-28 10:55:53,996 - root - INFO - 6 (32): 10 bytes
+2021-12-28 10:55:53,996 - root - INFO -     1 ( 8): 207 CF
+2021-12-28 10:55:53,996 - root - INFO -     2 (10): 190 BE
+2021-12-28 10:55:53,996 - root - INFO -     3 (18): 65 41
+2021-12-28 10:55:53,996 - root - INFO -     4 (20): 7  7
+2021-12-28 10:55:54,000 - root - INFO - Reading resources offsets table with 87 elements (348 bytes)
+2021-12-28 10:55:54,000 - root - INFO - Resource 0 offset: 768, length: 86556...
+2021-12-28 10:55:54,000 - root - DEBUG - Reading resource 0...
+2021-12-28 10:55:54,070 - root - INFO - The image is bme.
+2021-12-28 10:55:54,071 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:54,071 - root - INFO - Image header was read:
+2021-12-28 10:55:54,071 - root - INFO - Width: 202, Height: 214, RowLength: 404
+2021-12-28 10:55:54,071 - root - INFO - datalength: 86540, _step: 2
+2021-12-28 10:55:54,071 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:54,292 - root - INFO - Resource 1 offset: 87324, length: 86556...
+2021-12-28 10:55:54,292 - root - DEBUG - Reading resource 1...
+2021-12-28 10:55:54,292 - root - INFO - The image is bme.
+2021-12-28 10:55:54,292 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:54,292 - root - INFO - Image header was read:
+2021-12-28 10:55:54,292 - root - INFO - Width: 202, Height: 214, RowLength: 404
+2021-12-28 10:55:54,292 - root - INFO - datalength: 86540, _step: 2
+2021-12-28 10:55:54,292 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:54,532 - root - INFO - Resource 2 offset: 173880, length: 192288...
+2021-12-28 10:55:54,532 - root - DEBUG - Reading resource 2...
+2021-12-28 10:55:54,532 - root - INFO - The image is bme.
+2021-12-28 10:55:54,533 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:54,533 - root - INFO - Image header was read:
+2021-12-28 10:55:54,533 - root - INFO - Width: 302, Height: 320, RowLength: 604
+2021-12-28 10:55:54,533 - root - INFO - datalength: 192272, _step: 2
+2021-12-28 10:55:54,533 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,043 - root - INFO - Resource 3 offset: 366168, length: 3306...
+2021-12-28 10:55:55,043 - root - DEBUG - Reading resource 3...
+2021-12-28 10:55:55,043 - root - INFO - The image is bme.
+2021-12-28 10:55:55,043 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,044 - root - INFO - Image header was read:
+2021-12-28 10:55:55,044 - root - INFO - Width: 46, Height: 59, RowLength: 92
+2021-12-28 10:55:55,044 - root - INFO - datalength: 3290, _step: 2
+2021-12-28 10:55:55,044 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,051 - root - INFO - Resource 4 offset: 369474, length: 1980...
+2021-12-28 10:55:55,051 - root - DEBUG - Reading resource 4...
+2021-12-28 10:55:55,051 - root - INFO - The image is bme.
+2021-12-28 10:55:55,052 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,052 - root - INFO - Image header was read:
+2021-12-28 10:55:55,052 - root - INFO - Width: 46, Height: 59, RowLength: 92
+2021-12-28 10:55:55,052 - root - INFO - datalength: 1964, _step: 2
+2021-12-28 10:55:55,052 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,061 - root - INFO - Resource 5 offset: 371454, length: 3442...
+2021-12-28 10:55:55,062 - root - DEBUG - Reading resource 5...
+2021-12-28 10:55:55,062 - root - INFO - The image is bme.
+2021-12-28 10:55:55,062 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,062 - root - INFO - Image header was read:
+2021-12-28 10:55:55,062 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,062 - root - INFO - datalength: 3426, _step: 2
+2021-12-28 10:55:55,062 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,069 - root - INFO - Resource 6 offset: 374896, length: 3424...
+2021-12-28 10:55:55,072 - root - DEBUG - Reading resource 6...
+2021-12-28 10:55:55,073 - root - INFO - The image is bme.
+2021-12-28 10:55:55,073 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,073 - root - INFO - Image header was read:
+2021-12-28 10:55:55,073 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,073 - root - INFO - datalength: 3408, _step: 2
+2021-12-28 10:55:55,073 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,080 - root - INFO - Resource 7 offset: 378320, length: 3128...
+2021-12-28 10:55:55,080 - root - DEBUG - Reading resource 7...
+2021-12-28 10:55:55,080 - root - INFO - The image is bme.
+2021-12-28 10:55:55,080 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,080 - root - INFO - Image header was read:
+2021-12-28 10:55:55,080 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,080 - root - INFO - datalength: 3112, _step: 2
+2021-12-28 10:55:55,080 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,087 - root - INFO - Resource 8 offset: 381448, length: 3540...
+2021-12-28 10:55:55,088 - root - DEBUG - Reading resource 8...
+2021-12-28 10:55:55,088 - root - INFO - The image is bme.
+2021-12-28 10:55:55,088 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,088 - root - INFO - Image header was read:
+2021-12-28 10:55:55,088 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,088 - root - INFO - datalength: 3524, _step: 2
+2021-12-28 10:55:55,089 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,096 - root - INFO - Resource 9 offset: 384988, length: 3712...
+2021-12-28 10:55:55,096 - root - DEBUG - Reading resource 9...
+2021-12-28 10:55:55,096 - root - INFO - The image is bme.
+2021-12-28 10:55:55,096 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,096 - root - INFO - Image header was read:
+2021-12-28 10:55:55,096 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,097 - root - INFO - datalength: 3696, _step: 2
+2021-12-28 10:55:55,097 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,105 - root - INFO - Resource 10 offset: 388700, length: 2440...
+2021-12-28 10:55:55,106 - root - DEBUG - Reading resource 10...
+2021-12-28 10:55:55,106 - root - INFO - The image is bme.
+2021-12-28 10:55:55,106 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,106 - root - INFO - Image header was read:
+2021-12-28 10:55:55,106 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,106 - root - INFO - datalength: 2424, _step: 2
+2021-12-28 10:55:55,106 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,111 - root - INFO - Resource 11 offset: 391140, length: 3828...
+2021-12-28 10:55:55,111 - root - DEBUG - Reading resource 11...
+2021-12-28 10:55:55,112 - root - INFO - The image is bme.
+2021-12-28 10:55:55,112 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,112 - root - INFO - Image header was read:
+2021-12-28 10:55:55,112 - root - INFO - Width: 50, Height: 59, RowLength: 100
+2021-12-28 10:55:55,112 - root - INFO - datalength: 3812, _step: 2
+2021-12-28 10:55:55,112 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,126 - root - INFO - Resource 12 offset: 394968, length: 3492...
+2021-12-28 10:55:55,126 - root - DEBUG - Reading resource 12...
+2021-12-28 10:55:55,126 - root - INFO - The image is bme.
+2021-12-28 10:55:55,126 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,126 - root - INFO - Image header was read:
+2021-12-28 10:55:55,127 - root - INFO - Width: 46, Height: 59, RowLength: 92
+2021-12-28 10:55:55,127 - root - INFO - datalength: 3476, _step: 2
+2021-12-28 10:55:55,127 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,134 - root - INFO - Resource 13 offset: 398460, length: 1528...
+2021-12-28 10:55:55,134 - root - DEBUG - Reading resource 13...
+2021-12-28 10:55:55,134 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,134 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,134 - root - INFO - Image header was read:
+2021-12-28 10:55:55,134 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,134 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,134 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,137 - root - INFO - Resource 14 offset: 399988, length: 1528...
+2021-12-28 10:55:55,137 - root - DEBUG - Reading resource 14...
+2021-12-28 10:55:55,137 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,137 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,137 - root - INFO - Image header was read:
+2021-12-28 10:55:55,137 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,137 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,137 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,140 - root - INFO - Resource 15 offset: 401516, length: 1528...
+2021-12-28 10:55:55,141 - root - DEBUG - Reading resource 15...
+2021-12-28 10:55:55,141 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,142 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,142 - root - INFO - Image header was read:
+2021-12-28 10:55:55,142 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,142 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,142 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,144 - root - INFO - Resource 16 offset: 403044, length: 1528...
+2021-12-28 10:55:55,144 - root - DEBUG - Reading resource 16...
+2021-12-28 10:55:55,144 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,145 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,145 - root - INFO - Image header was read:
+2021-12-28 10:55:55,145 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,145 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,145 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,147 - root - INFO - Resource 17 offset: 404572, length: 1528...
+2021-12-28 10:55:55,147 - root - DEBUG - Reading resource 17...
+2021-12-28 10:55:55,147 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,147 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,147 - root - INFO - Image header was read:
+2021-12-28 10:55:55,147 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,147 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,148 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,150 - root - INFO - Resource 18 offset: 406100, length: 1528...
+2021-12-28 10:55:55,151 - root - DEBUG - Reading resource 18...
+2021-12-28 10:55:55,152 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,152 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,152 - root - INFO - Image header was read:
+2021-12-28 10:55:55,152 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,152 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,152 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,155 - root - INFO - Resource 19 offset: 407628, length: 1528...
+2021-12-28 10:55:55,155 - root - DEBUG - Reading resource 19...
+2021-12-28 10:55:55,155 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,155 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,155 - root - INFO - Image header was read:
+2021-12-28 10:55:55,156 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,156 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,156 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,158 - root - INFO - Resource 20 offset: 409156, length: 1528...
+2021-12-28 10:55:55,158 - root - DEBUG - Reading resource 20...
+2021-12-28 10:55:55,158 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,158 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,158 - root - INFO - Image header was read:
+2021-12-28 10:55:55,158 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,158 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,158 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,160 - root - INFO - Resource 21 offset: 410684, length: 1528...
+2021-12-28 10:55:55,161 - root - DEBUG - Reading resource 21...
+2021-12-28 10:55:55,161 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,161 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,161 - root - INFO - Image header was read:
+2021-12-28 10:55:55,161 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,161 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,161 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,163 - root - INFO - Resource 22 offset: 412212, length: 1528...
+2021-12-28 10:55:55,163 - root - DEBUG - Reading resource 22...
+2021-12-28 10:55:55,163 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,163 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,163 - root - INFO - Image header was read:
+2021-12-28 10:55:55,164 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,164 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,164 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,166 - root - INFO - Resource 23 offset: 413740, length: 968...
+2021-12-28 10:55:55,166 - root - DEBUG - Reading resource 23...
+2021-12-28 10:55:55,166 - root - INFO - The image is bme.
+2021-12-28 10:55:55,166 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,166 - root - INFO - Image header was read:
+2021-12-28 10:55:55,166 - root - INFO - Width: 26, Height: 59, RowLength: 52
+2021-12-28 10:55:55,166 - root - INFO - datalength: 952, _step: 2
+2021-12-28 10:55:55,166 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,168 - root - INFO - Resource 24 offset: 414708, length: 658...
+2021-12-28 10:55:55,168 - root - DEBUG - Reading resource 24...
+2021-12-28 10:55:55,168 - root - INFO - The image is bme.
+2021-12-28 10:55:55,169 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,169 - root - INFO - Image header was read:
+2021-12-28 10:55:55,169 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,169 - root - INFO - datalength: 642, _step: 2
+2021-12-28 10:55:55,169 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,171 - root - INFO - Resource 25 offset: 415366, length: 408...
+2021-12-28 10:55:55,171 - root - DEBUG - Reading resource 25...
+2021-12-28 10:55:55,171 - root - INFO - The image is bme.
+2021-12-28 10:55:55,171 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,171 - root - INFO - Image header was read:
+2021-12-28 10:55:55,172 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,172 - root - INFO - datalength: 392, _step: 2
+2021-12-28 10:55:55,172 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,172 - root - INFO - Resource 26 offset: 415774, length: 646...
+2021-12-28 10:55:55,173 - root - DEBUG - Reading resource 26...
+2021-12-28 10:55:55,173 - root - INFO - The image is bme.
+2021-12-28 10:55:55,173 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,173 - root - INFO - Image header was read:
+2021-12-28 10:55:55,173 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,173 - root - INFO - datalength: 630, _step: 2
+2021-12-28 10:55:55,173 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,174 - root - INFO - Resource 27 offset: 416420, length: 646...
+2021-12-28 10:55:55,174 - root - DEBUG - Reading resource 27...
+2021-12-28 10:55:55,174 - root - INFO - The image is bme.
+2021-12-28 10:55:55,175 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,175 - root - INFO - Image header was read:
+2021-12-28 10:55:55,175 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,175 - root - INFO - datalength: 630, _step: 2
+2021-12-28 10:55:55,175 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,176 - root - INFO - Resource 28 offset: 417066, length: 580...
+2021-12-28 10:55:55,176 - root - DEBUG - Reading resource 28...
+2021-12-28 10:55:55,177 - root - INFO - The image is bme.
+2021-12-28 10:55:55,177 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,177 - root - INFO - Image header was read:
+2021-12-28 10:55:55,177 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,177 - root - INFO - datalength: 564, _step: 2
+2021-12-28 10:55:55,177 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,178 - root - INFO - Resource 29 offset: 417646, length: 658...
+2021-12-28 10:55:55,178 - root - DEBUG - Reading resource 29...
+2021-12-28 10:55:55,178 - root - INFO - The image is bme.
+2021-12-28 10:55:55,178 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,178 - root - INFO - Image header was read:
+2021-12-28 10:55:55,178 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,178 - root - INFO - datalength: 642, _step: 2
+2021-12-28 10:55:55,178 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,180 - root - INFO - Resource 30 offset: 418304, length: 680...
+2021-12-28 10:55:55,180 - root - DEBUG - Reading resource 30...
+2021-12-28 10:55:55,180 - root - INFO - The image is bme.
+2021-12-28 10:55:55,180 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,180 - root - INFO - Image header was read:
+2021-12-28 10:55:55,180 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,180 - root - INFO - datalength: 664, _step: 2
+2021-12-28 10:55:55,180 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,181 - root - INFO - Resource 31 offset: 418984, length: 448...
+2021-12-28 10:55:55,182 - root - DEBUG - Reading resource 31...
+2021-12-28 10:55:55,182 - root - INFO - The image is bme.
+2021-12-28 10:55:55,182 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,182 - root - INFO - Image header was read:
+2021-12-28 10:55:55,182 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,182 - root - INFO - datalength: 432, _step: 2
+2021-12-28 10:55:55,182 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,183 - root - INFO - Resource 32 offset: 419432, length: 684...
+2021-12-28 10:55:55,183 - root - DEBUG - Reading resource 32...
+2021-12-28 10:55:55,183 - root - INFO - The image is bme.
+2021-12-28 10:55:55,183 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,183 - root - INFO - Image header was read:
+2021-12-28 10:55:55,183 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,183 - root - INFO - datalength: 668, _step: 2
+2021-12-28 10:55:55,183 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,185 - root - INFO - Resource 33 offset: 420116, length: 682...
+2021-12-28 10:55:55,185 - root - DEBUG - Reading resource 33...
+2021-12-28 10:55:55,185 - root - INFO - The image is bme.
+2021-12-28 10:55:55,185 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,185 - root - INFO - Image header was read:
+2021-12-28 10:55:55,185 - root - INFO - Width: 18, Height: 28, RowLength: 36
+2021-12-28 10:55:55,185 - root - INFO - datalength: 666, _step: 2
+2021-12-28 10:55:55,185 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,187 - root - INFO - Resource 34 offset: 420798, length: 2024...
+2021-12-28 10:55:55,187 - root - DEBUG - Reading resource 34...
+2021-12-28 10:55:55,187 - root - INFO - The image is bme.
+2021-12-28 10:55:55,187 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,187 - root - INFO - Image header was read:
+2021-12-28 10:55:55,187 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,187 - root - INFO - datalength: 2008, _step: 2
+2021-12-28 10:55:55,187 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,191 - root - INFO - Resource 35 offset: 422822, length: 2008...
+2021-12-28 10:55:55,191 - root - DEBUG - Reading resource 35...
+2021-12-28 10:55:55,191 - root - INFO - The image is bme.
+2021-12-28 10:55:55,191 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,191 - root - INFO - Image header was read:
+2021-12-28 10:55:55,191 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,192 - root - INFO - datalength: 1992, _step: 2
+2021-12-28 10:55:55,192 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,195 - root - INFO - Resource 36 offset: 424830, length: 2502...
+2021-12-28 10:55:55,195 - root - DEBUG - Reading resource 36...
+2021-12-28 10:55:55,195 - root - INFO - The image is bme.
+2021-12-28 10:55:55,195 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,196 - root - INFO - Image header was read:
+2021-12-28 10:55:55,196 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,196 - root - INFO - datalength: 2486, _step: 2
+2021-12-28 10:55:55,196 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,200 - root - INFO - Resource 37 offset: 427332, length: 2094...
+2021-12-28 10:55:55,200 - root - DEBUG - Reading resource 37...
+2021-12-28 10:55:55,200 - root - INFO - The image is bme.
+2021-12-28 10:55:55,200 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,200 - root - INFO - Image header was read:
+2021-12-28 10:55:55,201 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,201 - root - INFO - datalength: 2078, _step: 2
+2021-12-28 10:55:55,201 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,205 - root - INFO - Resource 38 offset: 429426, length: 2280...
+2021-12-28 10:55:55,206 - root - DEBUG - Reading resource 38...
+2021-12-28 10:55:55,206 - root - INFO - The image is bme.
+2021-12-28 10:55:55,206 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,206 - root - INFO - Image header was read:
+2021-12-28 10:55:55,206 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,206 - root - INFO - datalength: 2264, _step: 2
+2021-12-28 10:55:55,206 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,210 - root - INFO - Resource 39 offset: 431706, length: 2110...
+2021-12-28 10:55:55,211 - root - DEBUG - Reading resource 39...
+2021-12-28 10:55:55,211 - root - INFO - The image is bme.
+2021-12-28 10:55:55,211 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,211 - root - INFO - Image header was read:
+2021-12-28 10:55:55,211 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,211 - root - INFO - datalength: 2094, _step: 2
+2021-12-28 10:55:55,211 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,215 - root - INFO - Resource 40 offset: 433816, length: 1698...
+2021-12-28 10:55:55,215 - root - DEBUG - Reading resource 40...
+2021-12-28 10:55:55,215 - root - INFO - The image is bme.
+2021-12-28 10:55:55,215 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,215 - root - INFO - Image header was read:
+2021-12-28 10:55:55,215 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,215 - root - INFO - datalength: 1682, _step: 2
+2021-12-28 10:55:55,216 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,219 - root - INFO - Resource 41 offset: 435514, length: 2284...
+2021-12-28 10:55:55,219 - root - DEBUG - Reading resource 41...
+2021-12-28 10:55:55,219 - root - INFO - The image is bme.
+2021-12-28 10:55:55,219 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,219 - root - INFO - Image header was read:
+2021-12-28 10:55:55,219 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,219 - root - INFO - datalength: 2268, _step: 2
+2021-12-28 10:55:55,219 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,227 - root - INFO - Resource 42 offset: 437798, length: 2110...
+2021-12-28 10:55:55,227 - root - DEBUG - Reading resource 42...
+2021-12-28 10:55:55,227 - root - INFO - The image is bme.
+2021-12-28 10:55:55,228 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,228 - root - INFO - Image header was read:
+2021-12-28 10:55:55,228 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,228 - root - INFO - datalength: 2094, _step: 2
+2021-12-28 10:55:55,228 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,232 - root - INFO - Resource 43 offset: 439908, length: 1966...
+2021-12-28 10:55:55,232 - root - DEBUG - Reading resource 43...
+2021-12-28 10:55:55,233 - root - INFO - The image is bme.
+2021-12-28 10:55:55,233 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,233 - root - INFO - Image header was read:
+2021-12-28 10:55:55,233 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,233 - root - INFO - datalength: 1950, _step: 2
+2021-12-28 10:55:55,233 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,237 - root - INFO - Resource 44 offset: 441874, length: 2310...
+2021-12-28 10:55:55,237 - root - DEBUG - Reading resource 44...
+2021-12-28 10:55:55,237 - root - INFO - The image is bme.
+2021-12-28 10:55:55,237 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,237 - root - INFO - Image header was read:
+2021-12-28 10:55:55,237 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,237 - root - INFO - datalength: 2294, _step: 2
+2021-12-28 10:55:55,237 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,242 - root - INFO - Resource 45 offset: 444184, length: 2194...
+2021-12-28 10:55:55,242 - root - DEBUG - Reading resource 45...
+2021-12-28 10:55:55,242 - root - INFO - The image is bme.
+2021-12-28 10:55:55,242 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,242 - root - INFO - Image header was read:
+2021-12-28 10:55:55,242 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,242 - root - INFO - datalength: 2178, _step: 2
+2021-12-28 10:55:55,242 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,246 - root - INFO - Resource 46 offset: 446378, length: 1452...
+2021-12-28 10:55:55,246 - root - DEBUG - Reading resource 46...
+2021-12-28 10:55:55,246 - root - INFO - The image is bme.
+2021-12-28 10:55:55,247 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,247 - root - INFO - Image header was read:
+2021-12-28 10:55:55,247 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,247 - root - INFO - datalength: 1436, _step: 2
+2021-12-28 10:55:55,247 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,249 - root - INFO - Resource 47 offset: 447830, length: 1682...
+2021-12-28 10:55:55,249 - root - DEBUG - Reading resource 47...
+2021-12-28 10:55:55,249 - root - INFO - The image is bme.
+2021-12-28 10:55:55,250 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,250 - root - INFO - Image header was read:
+2021-12-28 10:55:55,250 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,250 - root - INFO - datalength: 1666, _step: 2
+2021-12-28 10:55:55,250 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,254 - root - INFO - Resource 48 offset: 449512, length: 1690...
+2021-12-28 10:55:55,254 - root - DEBUG - Reading resource 48...
+2021-12-28 10:55:55,254 - root - INFO - The image is bme.
+2021-12-28 10:55:55,254 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,254 - root - INFO - Image header was read:
+2021-12-28 10:55:55,254 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,254 - root - INFO - datalength: 1674, _step: 2
+2021-12-28 10:55:55,255 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,258 - root - INFO - Resource 49 offset: 451202, length: 1626...
+2021-12-28 10:55:55,259 - root - DEBUG - Reading resource 49...
+2021-12-28 10:55:55,259 - root - INFO - The image is bme.
+2021-12-28 10:55:55,259 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,259 - root - INFO - Image header was read:
+2021-12-28 10:55:55,259 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,259 - root - INFO - datalength: 1610, _step: 2
+2021-12-28 10:55:55,259 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,262 - root - INFO - Resource 50 offset: 452828, length: 1654...
+2021-12-28 10:55:55,262 - root - DEBUG - Reading resource 50...
+2021-12-28 10:55:55,262 - root - INFO - The image is bme.
+2021-12-28 10:55:55,262 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,262 - root - INFO - Image header was read:
+2021-12-28 10:55:55,262 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,262 - root - INFO - datalength: 1638, _step: 2
+2021-12-28 10:55:55,263 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,266 - root - INFO - Resource 51 offset: 454482, length: 1686...
+2021-12-28 10:55:55,266 - root - DEBUG - Reading resource 51...
+2021-12-28 10:55:55,266 - root - INFO - The image is bme.
+2021-12-28 10:55:55,266 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,266 - root - INFO - Image header was read:
+2021-12-28 10:55:55,266 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,266 - root - INFO - datalength: 1670, _step: 2
+2021-12-28 10:55:55,266 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,272 - root - INFO - Resource 52 offset: 456168, length: 1486...
+2021-12-28 10:55:55,272 - root - DEBUG - Reading resource 52...
+2021-12-28 10:55:55,273 - root - INFO - The image is bme.
+2021-12-28 10:55:55,273 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,273 - root - INFO - Image header was read:
+2021-12-28 10:55:55,273 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,273 - root - INFO - datalength: 1470, _step: 2
+2021-12-28 10:55:55,273 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,277 - root - INFO - Resource 53 offset: 457654, length: 1746...
+2021-12-28 10:55:55,277 - root - DEBUG - Reading resource 53...
+2021-12-28 10:55:55,277 - root - INFO - The image is bme.
+2021-12-28 10:55:55,277 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,277 - root - INFO - Image header was read:
+2021-12-28 10:55:55,277 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,277 - root - INFO - datalength: 1730, _step: 2
+2021-12-28 10:55:55,277 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,281 - root - INFO - Resource 54 offset: 459400, length: 1684...
+2021-12-28 10:55:55,281 - root - DEBUG - Reading resource 54...
+2021-12-28 10:55:55,281 - root - INFO - The image is bme.
+2021-12-28 10:55:55,281 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,281 - root - INFO - Image header was read:
+2021-12-28 10:55:55,281 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,281 - root - INFO - datalength: 1668, _step: 2
+2021-12-28 10:55:55,281 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,284 - root - INFO - Resource 55 offset: 461084, length: 2076...
+2021-12-28 10:55:55,284 - root - DEBUG - Reading resource 55...
+2021-12-28 10:55:55,284 - root - INFO - The image is bme.
+2021-12-28 10:55:55,284 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,284 - root - INFO - Image header was read:
+2021-12-28 10:55:55,284 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,285 - root - INFO - datalength: 2060, _step: 2
+2021-12-28 10:55:55,285 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,289 - root - INFO - Resource 56 offset: 463160, length: 1826...
+2021-12-28 10:55:55,289 - root - DEBUG - Reading resource 56...
+2021-12-28 10:55:55,289 - root - INFO - The image is bme.
+2021-12-28 10:55:55,289 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,289 - root - INFO - Image header was read:
+2021-12-28 10:55:55,289 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,290 - root - INFO - datalength: 1810, _step: 2
+2021-12-28 10:55:55,290 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,293 - root - INFO - Resource 57 offset: 464986, length: 2034...
+2021-12-28 10:55:55,293 - root - DEBUG - Reading resource 57...
+2021-12-28 10:55:55,293 - root - INFO - The image is bme.
+2021-12-28 10:55:55,293 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,293 - root - INFO - Image header was read:
+2021-12-28 10:55:55,294 - root - INFO - Width: 64, Height: 28, RowLength: 128
+2021-12-28 10:55:55,294 - root - INFO - datalength: 2018, _step: 2
+2021-12-28 10:55:55,294 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,298 - root - INFO - Resource 58 offset: 467020, length: 2696...
+2021-12-28 10:55:55,298 - root - DEBUG - Reading resource 58...
+2021-12-28 10:55:55,298 - root - INFO - The image is bme.
+2021-12-28 10:55:55,298 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,298 - root - INFO - Image header was read:
+2021-12-28 10:55:55,298 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,298 - root - INFO - datalength: 2680, _step: 2
+2021-12-28 10:55:55,298 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,303 - root - INFO - Resource 59 offset: 469716, length: 1948...
+2021-12-28 10:55:55,303 - root - DEBUG - Reading resource 59...
+2021-12-28 10:55:55,304 - root - INFO - The image is bme.
+2021-12-28 10:55:55,304 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,304 - root - INFO - Image header was read:
+2021-12-28 10:55:55,304 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,304 - root - INFO - datalength: 1932, _step: 2
+2021-12-28 10:55:55,304 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,308 - root - INFO - Resource 60 offset: 471664, length: 2506...
+2021-12-28 10:55:55,309 - root - DEBUG - Reading resource 60...
+2021-12-28 10:55:55,309 - root - INFO - The image is bme.
+2021-12-28 10:55:55,309 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,309 - root - INFO - Image header was read:
+2021-12-28 10:55:55,309 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,309 - root - INFO - datalength: 2490, _step: 2
+2021-12-28 10:55:55,310 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,314 - root - INFO - Resource 61 offset: 474170, length: 2048...
+2021-12-28 10:55:55,314 - root - DEBUG - Reading resource 61...
+2021-12-28 10:55:55,315 - root - INFO - The image is bme.
+2021-12-28 10:55:55,315 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,315 - root - INFO - Image header was read:
+2021-12-28 10:55:55,315 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,315 - root - INFO - datalength: 2032, _step: 2
+2021-12-28 10:55:55,315 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,319 - root - INFO - Resource 62 offset: 476218, length: 1732...
+2021-12-28 10:55:55,319 - root - DEBUG - Reading resource 62...
+2021-12-28 10:55:55,319 - root - INFO - The image is bme.
+2021-12-28 10:55:55,320 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,320 - root - INFO - Image header was read:
+2021-12-28 10:55:55,320 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,320 - root - INFO - datalength: 1716, _step: 2
+2021-12-28 10:55:55,320 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,323 - root - INFO - Resource 63 offset: 477950, length: 1898...
+2021-12-28 10:55:55,323 - root - DEBUG - Reading resource 63...
+2021-12-28 10:55:55,324 - root - INFO - The image is bme.
+2021-12-28 10:55:55,324 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,324 - root - INFO - Image header was read:
+2021-12-28 10:55:55,324 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,324 - root - INFO - datalength: 1882, _step: 2
+2021-12-28 10:55:55,324 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,327 - root - INFO - Resource 64 offset: 479848, length: 2320...
+2021-12-28 10:55:55,327 - root - DEBUG - Reading resource 64...
+2021-12-28 10:55:55,327 - root - INFO - The image is bme.
+2021-12-28 10:55:55,327 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,327 - root - INFO - Image header was read:
+2021-12-28 10:55:55,328 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,331 - root - INFO - datalength: 2304, _step: 2
+2021-12-28 10:55:55,331 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,335 - root - INFO - Resource 65 offset: 482168, length: 3164...
+2021-12-28 10:55:55,335 - root - DEBUG - Reading resource 65...
+2021-12-28 10:55:55,335 - root - INFO - The image is bme.
+2021-12-28 10:55:55,335 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,335 - root - INFO - Image header was read:
+2021-12-28 10:55:55,335 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,335 - root - INFO - datalength: 3148, _step: 2
+2021-12-28 10:55:55,335 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,342 - root - INFO - Resource 66 offset: 485332, length: 3454...
+2021-12-28 10:55:55,342 - root - DEBUG - Reading resource 66...
+2021-12-28 10:55:55,342 - root - INFO - The image is bme.
+2021-12-28 10:55:55,342 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,342 - root - INFO - Image header was read:
+2021-12-28 10:55:55,342 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,342 - root - INFO - datalength: 3438, _step: 2
+2021-12-28 10:55:55,342 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,349 - root - INFO - Resource 67 offset: 488786, length: 3556...
+2021-12-28 10:55:55,349 - root - DEBUG - Reading resource 67...
+2021-12-28 10:55:55,349 - root - INFO - The image is bme.
+2021-12-28 10:55:55,349 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,349 - root - INFO - Image header was read:
+2021-12-28 10:55:55,349 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,349 - root - INFO - datalength: 3540, _step: 2
+2021-12-28 10:55:55,350 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,365 - root - INFO - Resource 68 offset: 492342, length: 4138...
+2021-12-28 10:55:55,365 - root - DEBUG - Reading resource 68...
+2021-12-28 10:55:55,365 - root - INFO - The image is bme.
+2021-12-28 10:55:55,365 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,365 - root - INFO - Image header was read:
+2021-12-28 10:55:55,365 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,366 - root - INFO - datalength: 4122, _step: 2
+2021-12-28 10:55:55,366 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,374 - root - INFO - Resource 69 offset: 496480, length: 3816...
+2021-12-28 10:55:55,374 - root - DEBUG - Reading resource 69...
+2021-12-28 10:55:55,374 - root - INFO - The image is bme.
+2021-12-28 10:55:55,374 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,374 - root - INFO - Image header was read:
+2021-12-28 10:55:55,374 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,374 - root - INFO - datalength: 3800, _step: 2
+2021-12-28 10:55:55,374 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,387 - root - INFO - Resource 70 offset: 500296, length: 3764...
+2021-12-28 10:55:55,387 - root - DEBUG - Reading resource 70...
+2021-12-28 10:55:55,388 - root - INFO - The image is bme.
+2021-12-28 10:55:55,388 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,388 - root - INFO - Image header was read:
+2021-12-28 10:55:55,388 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,388 - root - INFO - datalength: 3748, _step: 2
+2021-12-28 10:55:55,388 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,395 - root - INFO - Resource 71 offset: 504060, length: 3948...
+2021-12-28 10:55:55,395 - root - DEBUG - Reading resource 71...
+2021-12-28 10:55:55,395 - root - INFO - The image is bme.
+2021-12-28 10:55:55,395 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,395 - root - INFO - Image header was read:
+2021-12-28 10:55:55,395 - root - INFO - Width: 89, Height: 32, RowLength: 178
+2021-12-28 10:55:55,395 - root - INFO - datalength: 3932, _step: 2
+2021-12-28 10:55:55,395 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,404 - root - INFO - Resource 72 offset: 508008, length: 1464...
+2021-12-28 10:55:55,404 - root - DEBUG - Reading resource 72...
+2021-12-28 10:55:55,404 - root - INFO - The image is bme.
+2021-12-28 10:55:55,405 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,405 - root - INFO - Image header was read:
+2021-12-28 10:55:55,405 - root - INFO - Width: 64, Height: 32, RowLength: 128
+2021-12-28 10:55:55,405 - root - INFO - datalength: 1448, _step: 2
+2021-12-28 10:55:55,405 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,407 - root - INFO - Resource 73 offset: 509472, length: 1500...
+2021-12-28 10:55:55,408 - root - DEBUG - Reading resource 73...
+2021-12-28 10:55:55,408 - root - INFO - The image is bme.
+2021-12-28 10:55:55,408 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,408 - root - INFO - Image header was read:
+2021-12-28 10:55:55,408 - root - INFO - Width: 64, Height: 32, RowLength: 128
+2021-12-28 10:55:55,408 - root - INFO - datalength: 1484, _step: 2
+2021-12-28 10:55:55,408 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,411 - root - INFO - Resource 74 offset: 510972, length: 1738...
+2021-12-28 10:55:55,411 - root - DEBUG - Reading resource 74...
+2021-12-28 10:55:55,411 - root - INFO - The image is bme.
+2021-12-28 10:55:55,411 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,411 - root - INFO - Image header was read:
+2021-12-28 10:55:55,411 - root - INFO - Width: 64, Height: 32, RowLength: 128
+2021-12-28 10:55:55,411 - root - INFO - datalength: 1722, _step: 2
+2021-12-28 10:55:55,411 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,414 - root - INFO - Resource 75 offset: 512710, length: 1730...
+2021-12-28 10:55:55,414 - root - DEBUG - Reading resource 75...
+2021-12-28 10:55:55,415 - root - INFO - The image is bme.
+2021-12-28 10:55:55,415 - root - INFO - Reading image header(readHeader16E)...
+2021-12-28 10:55:55,415 - root - INFO - Image header was read:
+2021-12-28 10:55:55,415 - root - INFO - Width: 64, Height: 32, RowLength: 128
+2021-12-28 10:55:55,415 - root - INFO - datalength: 1714, _step: 2
+2021-12-28 10:55:55,415 - root - INFO - BPP: 16, Transparency: False
+2021-12-28 10:55:55,418 - root - INFO - Resource 76 offset: 514440, length: 2200...
+2021-12-28 10:55:55,418 - root - DEBUG - Reading resource 76...
+2021-12-28 10:55:55,418 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,418 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,418 - root - INFO - Image header was read:
+2021-12-28 10:55:55,419 - root - INFO - Width: 26, Height: 28, RowLength: 78
+2021-12-28 10:55:55,419 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,419 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,423 - root - INFO - Resource 77 offset: 516640, length: 1528...
+2021-12-28 10:55:55,423 - root - DEBUG - Reading resource 77...
+2021-12-28 10:55:55,423 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,423 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,423 - root - INFO - Image header was read:
+2021-12-28 10:55:55,423 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,423 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,423 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,426 - root - INFO - Resource 78 offset: 518168, length: 1528...
+2021-12-28 10:55:55,426 - root - DEBUG - Reading resource 78...
+2021-12-28 10:55:55,426 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,426 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,426 - root - INFO - Image header was read:
+2021-12-28 10:55:55,426 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,426 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,427 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,429 - root - INFO - Resource 79 offset: 519696, length: 1528...
+2021-12-28 10:55:55,429 - root - DEBUG - Reading resource 79...
+2021-12-28 10:55:55,429 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,429 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,429 - root - INFO - Image header was read:
+2021-12-28 10:55:55,429 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,429 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,429 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,431 - root - INFO - Resource 80 offset: 521224, length: 1528...
+2021-12-28 10:55:55,432 - root - DEBUG - Reading resource 80...
+2021-12-28 10:55:55,432 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,432 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,432 - root - INFO - Image header was read:
+2021-12-28 10:55:55,432 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,432 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,432 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,436 - root - INFO - Resource 81 offset: 522752, length: 1528...
+2021-12-28 10:55:55,436 - root - DEBUG - Reading resource 81...
+2021-12-28 10:55:55,436 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,436 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,436 - root - INFO - Image header was read:
+2021-12-28 10:55:55,436 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,436 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,438 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,443 - root - INFO - Resource 82 offset: 524280, length: 1528...
+2021-12-28 10:55:55,444 - root - DEBUG - Reading resource 82...
+2021-12-28 10:55:55,444 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,444 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,444 - root - INFO - Image header was read:
+2021-12-28 10:55:55,444 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,444 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,444 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,446 - root - INFO - Resource 83 offset: 525808, length: 1528...
+2021-12-28 10:55:55,446 - root - DEBUG - Reading resource 83...
+2021-12-28 10:55:55,446 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,446 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,446 - root - INFO - Image header was read:
+2021-12-28 10:55:55,447 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,447 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,447 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,449 - root - INFO - Resource 84 offset: 527336, length: 1528...
+2021-12-28 10:55:55,449 - root - DEBUG - Reading resource 84...
+2021-12-28 10:55:55,449 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,449 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,449 - root - INFO - Image header was read:
+2021-12-28 10:55:55,449 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,449 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,449 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,451 - root - INFO - Resource 85 offset: 528864, length: 1528...
+2021-12-28 10:55:55,451 - root - DEBUG - Reading resource 85...
+2021-12-28 10:55:55,452 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,452 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,452 - root - INFO - Image header was read:
+2021-12-28 10:55:55,452 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,452 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,452 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,455 - root - INFO - Resource 86 offset: 530392, length: 1528...
+2021-12-28 10:55:55,455 - root - DEBUG - Reading resource 86...
+2021-12-28 10:55:55,455 - root - INFO - The image is bmc.
+2021-12-28 10:55:55,455 - root - INFO - Reading image header(readHeader16C)...
+2021-12-28 10:55:55,455 - root - INFO - Image header was read:
+2021-12-28 10:55:55,455 - root - INFO - Width: 18, Height: 28, RowLength: 54
+2021-12-28 10:55:55,456 - root - INFO - _step: 3, unknown2: 0,
+2021-12-28 10:55:55,456 - root - INFO - BPP: 24, Transparency: False
+2021-12-28 10:55:55,461 - root - DEBUG - Parsing parameters...
+2021-12-28 10:55:56,343 - root - DEBUG - 0 Value: None
+2021-12-28 10:55:56,344 - root - DEBUG - 0.1 Value: 71
+2021-12-28 10:55:56,344 - root - DEBUG - 2 Value: None
+2021-12-28 10:55:56,344 - root - DEBUG - 2.1 Value: None
+2021-12-28 10:55:56,344 - root - DEBUG - 2.1.1 Value: 0
+2021-12-28 10:55:56,344 - root - DEBUG - 2.1.2 Value: 0
+2021-12-28 10:55:56,345 - root - DEBUG - 2.1.3 Value: 2
+2021-12-28 10:55:56,345 - root - DEBUG - 2.3 Value: None
+2021-12-28 10:55:56,345 - root - DEBUG - 2.3.1 Value: 0
+2021-12-28 10:55:56,345 - root - DEBUG - 2.3.2 Value: 0
+2021-12-28 10:55:56,345 - root - DEBUG - 2.3.3 Value: 1
+2021-12-28 10:55:56,345 - root - DEBUG - 2.4 Value: None
+2021-12-28 10:55:56,345 - root - DEBUG - 2.4.1 Value: 0
+2021-12-28 10:55:56,346 - root - DEBUG - 2.4.2 Value: 0
+2021-12-28 10:55:56,346 - root - DEBUG - 2.4.3 Value: 0
+2021-12-28 10:55:56,346 - root - DEBUG - 2.5 Value: None
+2021-12-28 10:55:56,346 - root - DEBUG - 2.5.1 Value: 0
+2021-12-28 10:55:56,346 - root - DEBUG - 2.5.2 Value: 0
+2021-12-28 10:55:56,346 - root - DEBUG - 2.5.3 Value: 0
+2021-12-28 10:55:56,346 - root - DEBUG - 3 Value: None
+2021-12-28 10:55:56,346 - root - DEBUG - 3.1 Value: None
+2021-12-28 10:55:56,346 - root - DEBUG - 3.1.1 Value: None
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.1 Value: None
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.1.1 Value: 87
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.1.2 Value: 39
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.1.3 Value: 3
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.1.4 Value: 10
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.2 Value: None
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.2.1 Value: 133
+2021-12-28 10:55:56,347 - root - DEBUG - 3.1.1.2.2 Value: 39
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.1.2.3 Value: 3
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.1.2.4 Value: 10
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.2 Value: None
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.2.1 Value: None
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.2.1.1 Value: 205
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.2.1.2 Value: 39
+2021-12-28 10:55:56,348 - root - DEBUG - 3.1.2.1.3 Value: 3
+2021-12-28 10:55:56,349 - root - DEBUG - 3.1.2.1.4 Value: 10
+2021-12-28 10:55:56,349 - root - DEBUG - 3.1.2.2 Value: None
+2021-12-28 10:55:56,349 - root - DEBUG - 3.1.2.2.1 Value: 251
+2021-12-28 10:55:56,349 - root - DEBUG - 3.1.2.2.2 Value: 39
+2021-12-28 10:55:56,349 - root - DEBUG - 3.1.2.2.3 Value: 3
+2021-12-28 10:55:56,349 - root - DEBUG - 3.1.2.2.4 Value: 10
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3 Value: None
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3.1 Value: None
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3.1.1 Value: 91
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3.1.2 Value: 7
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3.1.3 Value: 13
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3.1.4 Value: 10
+2021-12-28 10:55:56,350 - root - DEBUG - 3.1.3.2 Value: None
+2021-12-28 10:55:56,351 - root - DEBUG - 3.1.3.2.1 Value: 110
+2021-12-28 10:55:56,351 - root - DEBUG - 3.1.3.2.2 Value: 7
+2021-12-28 10:55:56,351 - root - DEBUG - 3.1.3.2.3 Value: 13
+2021-12-28 10:55:56,351 - root - DEBUG - 3.1.3.2.4 Value: 10
+2021-12-28 10:55:56,351 - root - DEBUG - 3.1.5 Value: None
+2021-12-28 10:55:56,351 - root - DEBUG - 3.1.5.1 Value: 179
+2021-12-28 10:55:56,352 - root - DEBUG - 3.1.5.2 Value: 39
+2021-12-28 10:55:56,352 - root - DEBUG - 3.1.5.3 Value: 23
+2021-12-28 10:55:56,352 - root - DEBUG - 3.1.7 Value: 0
+2021-12-28 10:55:56,352 - root - DEBUG - 3.1.8 Value: 1
+2021-12-28 10:55:56,353 - root - DEBUG - 4 Value: None
+2021-12-28 10:55:56,355 - root - DEBUG - 4.1 Value: None
+2021-12-28 10:55:56,355 - root - DEBUG - 4.1.1 Value: None
+2021-12-28 10:55:56,356 - root - DEBUG - 4.1.1.1 Value: 128
+2021-12-28 10:55:56,356 - root - DEBUG - 4.1.1.2 Value: 251
+2021-12-28 10:55:56,356 - root - DEBUG - 4.1.1.3 Value: 222
+2021-12-28 10:55:56,356 - root - DEBUG - 4.1.1.4 Value: 279
+2021-12-28 10:55:56,356 - root - DEBUG - 4.1.1.5 Value: 20
+2021-12-28 10:55:56,357 - root - DEBUG - 4.1.1.6 Value: 1
+2021-12-28 10:55:56,357 - root - DEBUG - 4.1.1.7 Value: 0
+2021-12-28 10:55:56,357 - root - DEBUG - 4.1.1.8 Value: 13
+2021-12-28 10:55:56,357 - root - DEBUG - 4.1.1.9 Value: 10
+2021-12-28 10:55:56,357 - root - DEBUG - 4.4 Value: None
+2021-12-28 10:55:56,357 - root - DEBUG - 4.4.1 Value: None
+2021-12-28 10:55:56,357 - root - DEBUG - 4.4.1.1 Value: 16
+2021-12-28 10:55:56,357 - root - DEBUG - 4.4.1.2 Value: 128
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.3 Value: 72
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.4 Value: 156
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.5 Value: 20
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.6 Value: 1
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.7 Value: 0
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.8 Value: 13
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.1.9 Value: 10
+2021-12-28 10:55:56,358 - root - DEBUG - 4.4.3 Value: 76
+2021-12-28 10:55:56,358 - root - DEBUG - 4.6 Value: None
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1 Value: None
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.1 Value: 16
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.2 Value: 39
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.3 Value: 72
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.4 Value: 67
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.5 Value: 20
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.6 Value: 1
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.7 Value: 0
+2021-12-28 10:55:56,359 - root - DEBUG - 4.6.1.8 Value: 77
+2021-12-28 10:55:56,360 - root - DEBUG - 4.6.1.9 Value: 10
+2021-12-28 10:55:56,360 - root - DEBUG - 4.7 Value: 0
+2021-12-28 10:55:56,360 - root - DEBUG - 5 Value: None
+2021-12-28 10:55:56,360 - root - DEBUG - 5.1 Value: None
+2021-12-28 10:55:56,360 - root - DEBUG - 5.1.9 Value: None
+2021-12-28 10:55:56,360 - root - DEBUG - 5.1.9.3 Value: None
+2021-12-28 10:55:56,360 - root - DEBUG - 5.1.9.3.1 Value: 34
+2021-12-28 10:55:56,360 - root - DEBUG - 5.1.9.3.2 Value: 195
+2021-12-28 10:55:56,360 - root - DEBUG - 5.1.9.3.3 Value: 71
+2021-12-28 10:55:56,361 - root - DEBUG - 5.1.9.3.4 Value: 223
+2021-12-28 10:55:56,361 - root - DEBUG - 5.1.9.3.5 Value: 18
+2021-12-28 10:55:56,361 - root - DEBUG - 5.1.9.3.6 Value: 1
+2021-12-28 10:55:56,361 - root - DEBUG - 5.1.9.3.7 Value: 0
+2021-12-28 10:55:56,361 - root - DEBUG - 5.1.9.3.8 Value: 24
+2021-12-28 10:55:56,361 - root - DEBUG - 5.1.9.3.9 Value: 10
+2021-12-28 10:55:56,362 - root - DEBUG - 5.1.9.4 Value: 0
+2021-12-28 10:55:56,362 - root - DEBUG - 5.1.9.5 Value: 0
+2021-12-28 10:55:56,363 - root - DEBUG - 5.1.9.6 Value: None
+2021-12-28 10:55:56,363 - root - DEBUG - 5.1.9.6.1 Value: 7
+2021-12-28 10:55:56,363 - root - DEBUG - 5.1.9.6.2 Value: 165
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.6.3 Value: 34
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.6.4 Value: 12
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.7 Value: None
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.7.1 Value: 7
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.7.2 Value: 165
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.7.3 Value: 46
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.9.7.4 Value: 12
+2021-12-28 10:55:56,364 - root - DEBUG - 5.1.4 Value: 1
+2021-12-28 10:55:56,365 - root - DEBUG - 5.1.5 Value: 1
+2021-12-28 10:55:56,365 - root - DEBUG - 5.1.6 Value: 0
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2 Value: None
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2.1 Value: 159
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2.2 Value: 5
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2.3 Value: 72
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2.4 Value: 73
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2.5 Value: 74
+2021-12-28 10:55:56,365 - root - DEBUG - 5.2.6 Value: 75
+2021-12-28 10:55:56,365 - root - DEBUG - 5.4 Value: None
+2021-12-28 10:55:56,366 - root - DEBUG - 5.4.1 Value: 207
+2021-12-28 10:55:56,366 - root - DEBUG - 5.4.2 Value: 190
+2021-12-28 10:55:56,366 - root - DEBUG - 5.4.3 Value: 58
+2021-12-28 10:55:56,366 - root - DEBUG - 5.4.4 Value: 7
+2021-12-28 10:55:56,366 - root - DEBUG - 5.5 Value: None
+2021-12-28 10:55:56,366 - root - DEBUG - 5.5.1 Value: 207
+2021-12-28 10:55:56,366 - root - DEBUG - 5.5.2 Value: 190
+2021-12-28 10:55:56,366 - root - DEBUG - 5.5.3 Value: 65
+2021-12-28 10:55:56,367 - root - DEBUG - 5.5.4 Value: 7
+2021-12-28 10:55:56,367 - root - DEBUG - 5.6 Value: None
+2021-12-28 10:55:56,367 - root - DEBUG - 5.6.1 Value: 207
+2021-12-28 10:55:56,367 - root - DEBUG - 5.6.2 Value: 190
+2021-12-28 10:55:56,367 - root - DEBUG - 5.6.3 Value: 65
+2021-12-28 10:55:56,367 - root - DEBUG - 5.6.4 Value: 7
+2021-12-28 10:55:56,368 - root - DEBUG - 0-Info
+2021-12-28 10:55:56,368 - root - DEBUG - 0.1-DeviceId
+2021-12-28 10:55:56,368 - root - DEBUG - 2-Background
+2021-12-28 10:55:56,368 - root - DEBUG - 2.1-Image
+2021-12-28 10:55:56,368 - root - DEBUG - 2.1.1-X
+2021-12-28 10:55:56,368 - root - DEBUG - 2.1.2-Y
+2021-12-28 10:55:56,369 - root - DEBUG - 2.1.3-ImageIndex
+2021-12-28 10:55:56,370 - root - DEBUG - 2.3-Preview
+2021-12-28 10:55:56,370 - root - DEBUG - 2.3.1-X
+2021-12-28 10:55:56,370 - root - DEBUG - 2.3.2-Y
+2021-12-28 10:55:56,370 - root - DEBUG - 2.3.3-ImageIndex
+2021-12-28 10:55:56,370 - root - DEBUG - 2.4-PreviewKorean
+2021-12-28 10:55:56,370 - root - DEBUG - 2.4.1-X
+2021-12-28 10:55:56,370 - root - DEBUG - 2.4.2-Y
+2021-12-28 10:55:56,370 - root - DEBUG - 2.4.3-ImageIndex
+2021-12-28 10:55:56,372 - root - DEBUG - 2.5-PreviewChinese
+2021-12-28 10:55:56,372 - root - DEBUG - 2.5.1-X
+2021-12-28 10:55:56,372 - root - DEBUG - 2.5.2-Y
+2021-12-28 10:55:56,372 - root - DEBUG - 2.5.3-ImageIndex
+2021-12-28 10:55:56,372 - root - DEBUG - 3-TimeExtended
+2021-12-28 10:55:56,372 - root - DEBUG - 3.1-TimeSeparateDigits
+2021-12-28 10:55:56,372 - root - DEBUG - 3.1.1-Hours
+2021-12-28 10:55:56,372 - root - DEBUG - 3.1.1.1-Tens
+2021-12-28 10:55:56,372 - root - DEBUG - 3.1.1.1.1-X
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.1.2-Y
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.1.3-ImageIndex
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.1.4-ImagesCount
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.2-Ones
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.2.1-X
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.2.2-Y
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.2.3-ImageIndex
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.1.2.4-ImagesCount
+2021-12-28 10:55:56,373 - root - DEBUG - 3.1.2-Minutes
+2021-12-28 10:55:56,374 - root - DEBUG - 3.1.2.1-Tens
+2021-12-28 10:55:56,374 - root - DEBUG - 3.1.2.1.1-X
+2021-12-28 10:55:56,374 - root - DEBUG - 3.1.2.1.2-Y
+2021-12-28 10:55:56,374 - root - DEBUG - 3.1.2.1.3-ImageIndex
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.2.1.4-ImagesCount
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.2.2-Ones
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.2.2.1-X
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.2.2.2-Y
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.2.2.3-ImageIndex
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.2.2.4-ImagesCount
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.3-Seconds
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.3.1-Tens
+2021-12-28 10:55:56,375 - root - DEBUG - 3.1.3.1.1-X
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.1.2-Y
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.1.3-ImageIndex
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.1.4-ImagesCount
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.2-Ones
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.2.1-X
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.2.2-Y
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.2.3-ImageIndex
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.3.2.4-ImagesCount
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.5-SeparatorHours
+2021-12-28 10:55:56,376 - root - DEBUG - 3.1.5.1-X
+2021-12-28 10:55:56,377 - root - DEBUG - 3.1.5.2-Y
+2021-12-28 10:55:56,377 - root - DEBUG - 3.1.5.3-ImageIndex
+2021-12-28 10:55:56,377 - root - DEBUG - 3.1.7-PaddingZeroHours
+2021-12-28 10:55:56,377 - root - DEBUG - 3.1.8-PaddingZeroMinutes
+2021-12-28 10:55:56,377 - root - DEBUG - 4-Activity
+2021-12-28 10:55:56,377 - root - DEBUG - 4.1-Steps
+2021-12-28 10:55:56,377 - root - DEBUG - 4.1.1-ImageNumber
+2021-12-28 10:55:56,377 - root - DEBUG - 4.1.1.1-TopLeftX
+2021-12-28 10:55:56,377 - root - DEBUG - 4.1.1.2-TopLeftY
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.3-BottomRightX
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.4-BottomRightY
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.5-Alignment
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.6-Spacing
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.7-VerticalOffset
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.8-ImageIndex
+2021-12-28 10:55:56,378 - root - DEBUG - 4.1.1.9-ImagesCount
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4-HeartRate
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1-ImageNumber
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.1-TopLeftX
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.2-TopLeftY
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.3-BottomRightX
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.4-BottomRightY
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.5-Alignment
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.6-Spacing
+2021-12-28 10:55:56,379 - root - DEBUG - 4.4.1.7-VerticalOffset
+2021-12-28 10:55:56,380 - root - DEBUG - 4.4.1.8-ImageIndex
+2021-12-28 10:55:56,380 - root - DEBUG - 4.4.1.9-ImagesCount
+2021-12-28 10:55:56,380 - root - DEBUG - 4.4.3-NoDataImageIndex
+2021-12-28 10:55:56,380 - root - DEBUG - 4.6-PAI
+2021-12-28 10:55:56,380 - root - DEBUG - 4.6.1-ImageNumber
+2021-12-28 10:55:56,380 - root - DEBUG - 4.6.1.1-TopLeftX
+2021-12-28 10:55:56,380 - root - DEBUG - 4.6.1.2-TopLeftY
+2021-12-28 10:55:56,380 - root - DEBUG - 4.6.1.3-BottomRightX
+2021-12-28 10:55:56,380 - root - DEBUG - 4.6.1.4-BottomRightY
+2021-12-28 10:55:56,381 - root - DEBUG - 4.6.1.5-Alignment
+2021-12-28 10:55:56,381 - root - DEBUG - 4.6.1.6-Spacing
+2021-12-28 10:55:56,381 - root - DEBUG - 4.6.1.7-VerticalOffset
+2021-12-28 10:55:56,381 - root - DEBUG - 4.6.1.8-ImageIndex
+2021-12-28 10:55:56,381 - root - DEBUG - 4.6.1.9-ImagesCount
+2021-12-28 10:55:56,381 - root - DEBUG - 4.7-UnknownLongValue7
+2021-12-28 10:55:56,381 - root - DEBUG - 5-DateBlock
+2021-12-28 10:55:56,381 - root - DEBUG - 5.1-Date
+2021-12-28 10:55:56,381 - root - DEBUG - 5.1.9-MonthAndDay
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3-Day
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.1-TopLeftX
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.2-TopLeftY
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.3-BottomRightX
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.4-BottomRightY
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.5-Alignment
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.6-Spacing
+2021-12-28 10:55:56,382 - root - DEBUG - 5.1.9.3.7-VerticalOffset
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.3.8-ImageIndex
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.3.9-ImagesCount
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.4-MonthFollowsYear
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.5-DayFollowsMonth
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.6-MonthAsWord
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.6.1-X
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.6.2-Y
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.6.3-ImageIndex
+2021-12-28 10:55:56,383 - root - DEBUG - 5.1.9.6.4-ImagesCount
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.9.7-MonthAsWordChinese
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.9.7.1-X
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.9.7.2-Y
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.9.7.3-ImageIndex
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.9.7.4-ImagesCount
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.4-PaddingZeroMonth
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.5-PaddingZeroDay
+2021-12-28 10:55:56,384 - root - DEBUG - 5.1.6-Unknown6
+2021-12-28 10:55:56,384 - root - DEBUG - 5.2-AmPm
+2021-12-28 10:55:56,385 - root - DEBUG - 5.2.1-CommonX
+2021-12-28 10:55:56,385 - root - DEBUG - 5.2.2-CommonY
+2021-12-28 10:55:56,385 - root - DEBUG - 5.2.3-ImageIndexAMCN
+2021-12-28 10:55:56,385 - root - DEBUG - 5.2.4-ImageIndexPMCN
+2021-12-28 10:55:56,385 - root - DEBUG - 5.2.5-AmImageIndexEN
+2021-12-28 10:55:56,385 - root - DEBUG - 5.2.6-PmImageIndexEN
+2021-12-28 10:55:56,385 - root - DEBUG - 5.4-Weekday
+2021-12-28 10:55:56,385 - root - DEBUG - 5.4.1-X
+2021-12-28 10:55:56,385 - root - DEBUG - 5.4.2-Y
+2021-12-28 10:55:56,386 - root - DEBUG - 5.4.3-ImageIndex
+2021-12-28 10:55:56,386 - root - DEBUG - 5.4.4-ImagesCount
+2021-12-28 10:55:56,386 - root - DEBUG - 5.5-WeekdayChinese
+2021-12-28 10:55:56,386 - root - DEBUG - 5.5.1-X
+2021-12-28 10:55:56,386 - root - DEBUG - 5.5.2-Y
+2021-12-28 10:55:56,386 - root - DEBUG - 5.5.3-ImageIndex
+2021-12-28 10:55:56,386 - root - DEBUG - 5.5.4-ImagesCount
+2021-12-28 10:55:56,387 - root - DEBUG - 5.6-WeekdayKorean
+2021-12-28 10:55:56,387 - root - DEBUG - 5.6.1-X
+2021-12-28 10:55:56,387 - root - DEBUG - 5.6.2-Y
+2021-12-28 10:55:56,387 - root - DEBUG - 5.6.3-ImageIndex
+2021-12-28 10:55:56,387 - root - DEBUG - 5.6.4-ImagesCount
+2021-12-28 10:55:56,387 - root - DEBUG - generatePreviews
+2021-12-28 10:55:56,387 - root - DEBUG - Generating previews...
+2021-12-28 10:55:56,391 - root - DEBUG - Generating states done...
+2021-12-28 10:55:56,398 - root - DEBUG - >>>>>>>>>>>> 0 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B34088>
+2021-12-28 10:55:56,398 - root - DEBUG - >>>>>>>>>>>> 2 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B24D48>
+2021-12-28 10:55:56,406 - root - DEBUG - >>>>>>>>>>>> 3 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B24888>
+2021-12-28 10:55:56,415 - root - DEBUG - >>>>>>>>>>>> 4 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B2E088>
+2021-12-28 10:55:56,427 - root - DEBUG - >>>>>>>>>>>> 5 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B34388>
+2021-12-28 10:55:56,447 - root - DEBUG - Generating static preview gen done...
+2021-12-28 10:55:56,543 - root - DEBUG - Generating static preview save done...
+2021-12-28 10:55:56,543 - root - DEBUG - Generating anim preview gen done...
+2021-12-28 10:55:56,543 - root - DEBUG - >>>>>>>>>>>> 0 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B34088>
+2021-12-28 10:55:56,543 - root - DEBUG - >>>>>>>>>>>> 2 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B24D48>
+2021-12-28 10:55:56,543 - root - DEBUG - >>>>>>>>>>>> 3 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B24888>
+2021-12-28 10:55:56,544 - root - DEBUG - >>>>>>>>>>>> 4 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B2E088>
+2021-12-28 10:55:56,544 - root - DEBUG - >>>>>>>>>>>> 5 <watchFaceParser.models.parameter.Parameter object at 0x0000020AB9B34388>
+2021-12-28 10:55:56,665 - root - DEBUG - generatePreviews done
+2021-12-28 10:55:56,665 - root - DEBUG - Exporting resources to 'E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65'
+2021-12-28 10:55:56,667 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0000.png...
+2021-12-28 10:55:56,676 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0001.png...
+2021-12-28 10:55:56,683 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0002.png...
+2021-12-28 10:55:56,695 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0003.png...
+2021-12-28 10:55:56,696 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0004.png...
+2021-12-28 10:55:56,697 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0005.png...
+2021-12-28 10:55:56,698 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0006.png...
+2021-12-28 10:55:56,699 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0007.png...
+2021-12-28 10:55:56,700 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0008.png...
+2021-12-28 10:55:56,701 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0009.png...
+2021-12-28 10:55:56,706 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0010.png...
+2021-12-28 10:55:56,707 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0011.png...
+2021-12-28 10:55:56,708 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0012.png...
+2021-12-28 10:55:56,727 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0013.png...
+2021-12-28 10:55:56,728 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0014.png...
+2021-12-28 10:55:56,728 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0015.png...
+2021-12-28 10:55:56,729 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0016.png...
+2021-12-28 10:55:56,730 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0017.png...
+2021-12-28 10:55:56,730 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0018.png...
+2021-12-28 10:55:56,731 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0019.png...
+2021-12-28 10:55:56,732 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0020.png...
+2021-12-28 10:55:56,733 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0021.png...
+2021-12-28 10:55:56,733 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0022.png...
+2021-12-28 10:55:56,734 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0023.png...
+2021-12-28 10:55:56,735 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0024.png...
+2021-12-28 10:55:56,735 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0025.png...
+2021-12-28 10:55:56,736 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0026.png...
+2021-12-28 10:55:56,737 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0027.png...
+2021-12-28 10:55:56,747 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0028.png...
+2021-12-28 10:55:56,748 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0029.png...
+2021-12-28 10:55:56,750 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0030.png...
+2021-12-28 10:55:56,751 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0031.png...
+2021-12-28 10:55:56,751 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0032.png...
+2021-12-28 10:55:56,752 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0033.png...
+2021-12-28 10:55:56,757 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0034.png...
+2021-12-28 10:55:56,758 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0035.png...
+2021-12-28 10:55:56,759 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0036.png...
+2021-12-28 10:55:56,760 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0037.png...
+2021-12-28 10:55:56,760 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0038.png...
+2021-12-28 10:55:56,762 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0039.png...
+2021-12-28 10:55:56,764 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0040.png...
+2021-12-28 10:55:56,764 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0041.png...
+2021-12-28 10:55:56,765 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0042.png...
+2021-12-28 10:55:56,766 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0043.png...
+2021-12-28 10:55:56,768 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0044.png...
+2021-12-28 10:55:56,770 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0045.png...
+2021-12-28 10:55:56,771 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0046.png...
+2021-12-28 10:55:56,772 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0047.png...
+2021-12-28 10:55:56,774 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0048.png...
+2021-12-28 10:55:56,775 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0049.png...
+2021-12-28 10:55:56,776 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0050.png...
+2021-12-28 10:55:56,777 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0051.png...
+2021-12-28 10:55:56,778 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0052.png...
+2021-12-28 10:55:56,778 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0053.png...
+2021-12-28 10:55:56,780 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0054.png...
+2021-12-28 10:55:56,780 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0055.png...
+2021-12-28 10:55:56,781 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0056.png...
+2021-12-28 10:55:56,782 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0057.png...
+2021-12-28 10:55:56,783 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0058.png...
+2021-12-28 10:55:56,784 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0059.png...
+2021-12-28 10:55:56,785 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0060.png...
+2021-12-28 10:55:56,786 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0061.png...
+2021-12-28 10:55:56,787 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0062.png...
+2021-12-28 10:55:56,789 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0063.png...
+2021-12-28 10:55:56,791 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0064.png...
+2021-12-28 10:55:56,792 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0065.png...
+2021-12-28 10:55:56,793 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0066.png...
+2021-12-28 10:55:56,794 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0067.png...
+2021-12-28 10:55:56,795 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0068.png...
+2021-12-28 10:55:56,796 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0069.png...
+2021-12-28 10:55:56,797 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0070.png...
+2021-12-28 10:55:56,799 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0071.png...
+2021-12-28 10:55:56,800 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0072.png...
+2021-12-28 10:55:56,801 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0073.png...
+2021-12-28 10:55:56,801 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0074.png...
+2021-12-28 10:55:56,802 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0075.png...
+2021-12-28 10:55:56,803 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0076.png...
+2021-12-28 10:55:56,804 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0077.png...
+2021-12-28 10:55:56,805 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0078.png...
+2021-12-28 10:55:56,806 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0079.png...
+2021-12-28 10:55:56,806 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0080.png...
+2021-12-28 10:55:56,807 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0081.png...
+2021-12-28 10:55:56,808 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0082.png...
+2021-12-28 10:55:56,809 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0083.png...
+2021-12-28 10:55:56,810 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0084.png...
+2021-12-28 10:55:56,811 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0085.png...
+2021-12-28 10:55:56,812 - root - DEBUG - extracting E:\Codez\zepp-bipupro-wf\e7fb2653e13c8747e82ce500ec321d65\0086.png...
+2021-12-28 10:55:56,812 - root - DEBUG - Exporting config...
