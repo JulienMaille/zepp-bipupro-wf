@@ -31,7 +31,43 @@
       "Unknown6": 0
     }
   },
-  "Unknown14": null,
+  "WeekDayImages": {
+    "Monday": {
+      "X": 26,
+      "Y": 218,
+      "ImageIndex": 2
+    },
+    "Tuesday": {
+      "X": 16,
+      "Y": 173,
+      "ImageIndex": 3
+    },
+    "Wednesday": {
+      "X": 16,
+      "Y": 126,
+      "ImageIndex": 4
+    },
+    "Thurday": {
+      "X": 31,
+      "Y": 82,
+      "ImageIndex": 5
+    },
+    "Friday": {
+      "X": 62,
+      "Y": 51,
+      "ImageIndex": 6
+    },
+    "Saturday": {
+      "X": 100,
+      "Y": 29,
+      "ImageIndex": 7
+    },
+    "Sunday": {
+      "X": 145,
+      "Y": 21,
+      "ImageIndex": 8
+    }
+  },
   "TimeAnalog": {
     "CommonCenterCoordinates": {
       "X": 159,

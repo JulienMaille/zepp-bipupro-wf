@@ -56,7 +56,7 @@
         "TopLeftY": 10,
         "BottomRightX": 67,
         "BottomRightY": 29,
-        "Unknown5": 1
+        "UnknownBoolean5": true
       }
     },
     "PAI": {
@@ -76,7 +76,7 @@
         "TopLeftY": 291,
         "BottomRightX": 67,
         "BottomRightY": 310,
-        "Unknown5": 1
+        "UnknownBoolean5": true
       }
     },
     "UnknownLongValue7": 0

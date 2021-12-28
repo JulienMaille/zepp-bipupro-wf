@@ -71,7 +71,7 @@
         "ImageIndex": 45,
         "ImagesCount": 10
       },
-      "NoDataImageIndex": 55
+      "SuffixImageIndex": 55
     },
     "HeartRate": {
       "ImageNumber": {
@@ -100,7 +100,7 @@
         "ImageIndex": 45,
         "ImagesCount": 10
       },
-      "NoDataImageIndex": 58
+      "SuffixImageIndex": 58
     },
     "UnknownLongValue7": 0
   },
