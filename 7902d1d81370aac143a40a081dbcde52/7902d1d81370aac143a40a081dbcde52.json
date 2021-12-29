@@ -78,7 +78,7 @@
     "Date": {
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     },
     "AmPm": {
       "CommonX": 130,
@@ -95,7 +95,7 @@
       "ImagesCount": 10
     }
   },
-  "HearthProgress": {
+  "HeartProgress": {
     "IconSetProgress": {
       "ImageIndex": 44,
       "Coordinates": [

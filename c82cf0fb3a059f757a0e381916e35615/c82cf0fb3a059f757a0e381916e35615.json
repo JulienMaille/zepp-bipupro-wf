@@ -28,7 +28,7 @@
     "Date": {
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     }
   },
   "WeekDayImages": {
@@ -47,7 +47,7 @@
       "Y": 126,
       "ImageIndex": 4
     },
-    "Thurday": {
+    "Thursday": {
       "X": 31,
       "Y": 82,
       "ImageIndex": 5

@@ -93,7 +93,7 @@
       },
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     },
     "Weekday": {
       "X": 84,
@@ -140,7 +140,7 @@
       "ImageIndex": 63
     }
   },
-  "HearthProgress": {
+  "HeartProgress": {
     "ImageProgress": {
       "X": 2,
       "Y": 98,

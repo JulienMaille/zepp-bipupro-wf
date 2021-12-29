@@ -105,7 +105,7 @@
       },
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     },
     "AmPm": {
       "CommonX": 0,
@@ -162,7 +162,7 @@
       }
     ]
   },
-  "HearthProgress": {
+  "HeartProgress": {
     "ImageProgress": {
       "X": 90,
       "Y": 194,

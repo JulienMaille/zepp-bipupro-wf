@@ -92,7 +92,7 @@
     "Date": {
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     },
     "AmPm": {
       "CommonX": 0,
@@ -127,7 +127,7 @@
       "SuffixImageIndex": 30
     }
   },
-  "HearthProgress": {
+  "HeartProgress": {
     "ImageProgress": {
       "X": 198,
       "Y": 229,
