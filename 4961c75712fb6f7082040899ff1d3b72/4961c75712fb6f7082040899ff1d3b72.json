@@ -18,7 +18,7 @@
     "Date": {
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     },
     "Weekday": {
       "X": 83,
@@ -67,7 +67,7 @@
       ]
     }
   },
-  "HearthProgress": {
+  "HeartProgress": {
     "IconSetProgress": {
       "ImageIndex": 22,
       "Coordinates": [

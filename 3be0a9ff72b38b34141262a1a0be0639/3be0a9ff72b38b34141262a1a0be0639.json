@@ -83,7 +83,7 @@
   },
   "DateBlock": {
     "Date": {
-      "MonthAndDay": {
+      "YearMonthAndDay": {
         "Day": {
           "TopLeftX": 175,
           "TopLeftY": 226,
