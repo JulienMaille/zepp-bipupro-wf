@@ -72,7 +72,7 @@
       },
       "PaddingZeroMonth": true,
       "PaddingZeroDay": true,
-      "Unknown6": 0
+      "UnknownBoolean6": false
     },
     "AmPm": {
       "CommonX": 258,
@@ -124,5 +124,95 @@
       }
     }
   },
-  "Unknown22": null
+  "HourlyImages": {
+    "HourlyImage": {
+      "IconSet": {
+        "ImageIndex": 51,
+        "Coordinates": [
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          },
+          {
+            "X": 0,
+            "Y": 109
+          }
+        ]
+      },
+      "TimeSpans": [
+        {
+          "StartHour": 19,
+          "StartMin": 0,
+          "StopHour": 6,
+          "StopMin": 0
+        },
+        {
+          "StartHour": 6,
+          "StartMin": 0,
+          "StopHour": 8,
+          "StopMin": 0
+        },
+        {
+          "StartHour": 8,
+          "StartMin": 0,
+          "StopHour": 10,
+          "StopMin": 0
+        },
+        {
+          "StartHour": 10,
+          "StartMin": 0,
+          "StopHour": 11,
+          "StopMin": 30
+        },
+        {
+          "StartHour": 11,
+          "StartMin": 30,
+          "StopHour": 12,
+          "StopMin": 31
+        },
+        {
+          "StartHour": 12,
+          "StartMin": 31,
+          "StopHour": 15,
+          "StopMin": 0
+        },
+        {
+          "StartHour": 15,
+          "StartMin": 0,
+          "StopHour": 17,
+          "StopMin": 0
+        },
+        {
+          "StartHour": 17,
+          "StartMin": 0,
+          "StopHour": 19,
+          "StopMin": 0
+        }
+      ]
+    }
+  }
 }
