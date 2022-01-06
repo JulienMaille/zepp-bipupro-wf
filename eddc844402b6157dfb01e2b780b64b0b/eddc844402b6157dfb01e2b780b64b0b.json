@@ -4,7 +4,7 @@
   },
   "Background": {
     "BackgroundColor": "0x00000000FF000000",
-    "PreviewKorean": {
+    "PreviewTradChinese": {
       "X": 18,
       "Y": 17,
       "ImageIndex": 1
@@ -94,7 +94,7 @@
       "ImageIndex": 38,
       "ImagesCount": 7
     },
-    "WeekdayKorean": {
+    "WeekdayTradChinese": {
       "X": 172,
       "Y": 127,
       "ImageIndex": 31,

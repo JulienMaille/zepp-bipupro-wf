@@ -13,7 +13,7 @@
       "Y": 0,
       "ImageIndex": 1
     },
-    "PreviewKorean": {
+    "PreviewTradChinese": {
       "X": 0,
       "Y": 0,
       "ImageIndex": 0
@@ -127,7 +127,7 @@
       "ImageIndex": 24,
       "ImagesCount": 7
     },
-    "WeekdayKorean": {
+    "WeekdayTradChinese": {
       "X": 17,
       "Y": 19,
       "ImageIndex": 31,
