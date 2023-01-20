@@ -56,13 +56,13 @@
   "DateBlock": {
     "Date": {
       "MonthAndDayAlt": {
-        "MonthName": {
+        "MonthAsWord": {
           "X": 80,
           "Y": 285,
           "ImageIndex": 3,
           "ImagesCount": 12
         },
-        "MonthNameChinese": {
+        "MonthAsWordChinese": {
           "X": 80,
           "Y": 285,
           "ImageIndex": 15,
