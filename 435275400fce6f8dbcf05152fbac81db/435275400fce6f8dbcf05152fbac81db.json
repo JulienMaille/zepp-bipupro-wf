@@ -55,7 +55,7 @@
         "Y": 19,
         "ImageIndex": 11
       },
-      "PaddingZeroHours": false,
+      "UnknowBoolean7": false,
       "PaddingZeroMinutes": true
     }
   },
@@ -126,7 +126,7 @@
       "ImageIndex": 45,
       "ImagesCount": 12
     },
-    "NoDataImage": {
+    "BackgroundLayer": {
       "X": 24,
       "Y": 46,
       "ImageIndex": 57

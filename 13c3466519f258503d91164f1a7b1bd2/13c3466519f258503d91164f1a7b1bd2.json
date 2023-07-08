@@ -78,7 +78,7 @@
       "ImageIndex": 22,
       "ImagesCount": 6
     },
-    "NoDataImage": {
+    "BackgroundLayer": {
       "X": 17,
       "Y": 115,
       "ImageIndex": 28
@@ -127,7 +127,7 @@
       "ImageIndex": 44,
       "ImagesCount": 6
     },
-    "NoDataImage": {
+    "BackgroundLayer": {
       "X": 17,
       "Y": 24,
       "ImageIndex": 50

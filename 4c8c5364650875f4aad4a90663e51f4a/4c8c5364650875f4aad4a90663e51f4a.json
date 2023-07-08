@@ -54,7 +54,7 @@
           "ImagesCount": 10
         }
       },
-      "PaddingZeroHours": false,
+      "UnknowBoolean7": false,
       "PaddingZeroMinutes": true
     }
   },
@@ -169,7 +169,7 @@
       "ImageIndex": 64,
       "ImagesCount": 6
     },
-    "NoDataImage": {
+    "BackgroundLayer": {
       "X": 90,
       "Y": 194,
       "ImageIndex": 70
@@ -182,7 +182,7 @@
       "ImageIndex": 81,
       "ImagesCount": 8
     },
-    "NoDataImage": {
+    "BackgroundLayer": {
       "X": 37,
       "Y": 230,
       "ImageIndex": 89
@@ -195,7 +195,7 @@
       "ImageIndex": 90,
       "ImagesCount": 8
     },
-    "NoDataImage": {
+    "BackgroundLayer": {
       "X": 205,
       "Y": 230,
       "ImageIndex": 98
